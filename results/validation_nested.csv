@@ -1,0 +1,4 @@
+strategy,accuracy,accuracy_1,mae,diff_vs_global,se
+baseline: najczęstsza ocena,0.40937,0.71139,1.05462,-0.00754,0.00236
+parametry globalne,0.41691,0.71198,1.04721,0.0,0.0
+per osoba (próg 5 trafień),0.38457,0.69221,1.11052,-0.03234,0.003

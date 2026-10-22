@@ -1,0 +1,31 @@
+{
+  "k": 45,
+  "method": "wvote",
+  "scale": "raw",
+  "features": [
+    "budget",
+    "directors",
+    "cast",
+    "companies"
+  ],
+  "loo_accuracy": 0.4177,
+  "baseline_accuracy": 0.4115,
+  "ga": {
+    "population": 30,
+    "generations": 40,
+    "penalty": 0.0001,
+    "seed": 0,
+    "ks": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      15,
+      20,
+      30,
+      45
+    ]
+  },
+  "note": "Pętla po k, dla każdego k GA wybiera jeden zestaw cech dla wszystkich osób. LOO na wszystkich osobach, k i cechy dobrane na tych samych danych (lekko optymistyczne)."
+}

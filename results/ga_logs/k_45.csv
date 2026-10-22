@@ -1,0 +1,19 @@
+generation,best_fit,generation_best,generation_mean,generation_worst,n_features,best_mask,features,evaluated_masks
+1,0.415418,0.415418,0.35795,0.138696,1,0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0,budget,30
+2,0.415918,0.415918,0.407718,0.281123,5,0 0 0 0 1 1 0 0 1 0 0 1 0 0 0 1 0,"budget, language, directors, companies, cast_wide",56
+3,0.416539,0.416539,0.412736,0.402462,5,0 0 0 0 1 1 0 0 0 0 0 1 0 0 1 1 0,"budget, language, companies, cinematographers, cast_wide",78
+4,0.416539,0.416539,0.408596,0.291382,5,0 0 0 0 1 1 0 0 0 0 0 1 0 0 1 1 0,"budget, language, companies, cinematographers, cast_wide",105
+5,0.416701,0.416701,0.412834,0.378378,4,0 0 0 0 1 0 0 0 0 0 0 1 1 0 1 0 0,"budget, companies, writers, cinematographers",133
+6,0.416918,0.416918,0.413618,0.395572,4,0 0 0 0 1 0 0 0 0 1 0 1 0 0 1 0 0,"budget, cast, companies, cinematographers",154
+7,0.416918,0.416918,0.412977,0.381202,4,0 0 0 0 1 0 0 0 0 1 0 1 0 0 1 0 0,"budget, cast, companies, cinematographers",175
+8,0.41726,0.41726,0.414662,0.402524,4,0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 0 0,"budget, directors, cast, companies",198
+9,0.41726,0.41726,0.410167,0.289861,4,0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 0 0,"budget, directors, cast, companies",214
+10,0.41726,0.41726,0.407534,0.270843,4,0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 0 0,"budget, directors, cast, companies",228
+11,0.41726,0.41726,0.415173,0.408735,4,0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 0 0,"budget, directors, cast, companies",241
+12,0.41726,0.41726,0.414366,0.389506,4,0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 0 0,"budget, directors, cast, companies",253
+13,0.41726,0.41726,0.407762,0.290427,4,0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 0 0,"budget, directors, cast, companies",265
+14,0.41726,0.41726,0.407521,0.303028,4,0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 0 0,"budget, directors, cast, companies",277
+15,0.41726,0.41726,0.412155,0.313635,4,0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 0 0,"budget, directors, cast, companies",286
+16,0.41726,0.41726,0.406564,0.311401,4,0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 0 0,"budget, directors, cast, companies",293
+17,0.41726,0.41726,0.406285,0.258583,4,0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 0 0,"budget, directors, cast, companies",305
+18,0.41726,0.41726,0.412041,0.317508,4,0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 0 0,"budget, directors, cast, companies",314

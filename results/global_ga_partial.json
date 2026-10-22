@@ -1,0 +1,185 @@
+{
+ "config": {
+  "method": "wvote",
+  "scale": "raw",
+  "penalty": 0.0001,
+  "seed": 0,
+  "population": 30,
+  "generations": 40,
+  "features": [
+   "year",
+   "runtime",
+   "vote_count",
+   "vote_average",
+   "budget",
+   "language",
+   "genres",
+   "keywords",
+   "directors",
+   "cast",
+   "countries",
+   "companies",
+   "writers",
+   "composers",
+   "cinematographers",
+   "cast_wide",
+   "overview"
+  ]
+ },
+ "by_k": {
+  "3": {
+   "k": 3,
+   "fitness": 0.35444,
+   "accuracy": 0.35534,
+   "n_features": 9,
+   "features": [
+    "year",
+    "runtime",
+    "vote_average",
+    "genres",
+    "directors",
+    "countries",
+    "companies",
+    "composers",
+    "cinematographers"
+   ],
+   "evaluated_masks": 276,
+   "minutes": 0.9
+  },
+  "5": {
+   "k": 5,
+   "fitness": 0.37568,
+   "accuracy": 0.37638,
+   "n_features": 7,
+   "features": [
+    "year",
+    "vote_count",
+    "budget",
+    "keywords",
+    "companies",
+    "writers",
+    "composers"
+   ],
+   "evaluated_masks": 396,
+   "minutes": 1.4
+  },
+  "9": {
+   "k": 9,
+   "fitness": 0.39032,
+   "accuracy": 0.39072,
+   "n_features": 4,
+   "features": [
+    "vote_average",
+    "budget",
+    "directors",
+    "companies"
+   ],
+   "evaluated_masks": 429,
+   "minutes": 1.6
+  },
+  "7": {
+   "k": 7,
+   "fitness": 0.38548,
+   "accuracy": 0.38628,
+   "n_features": 8,
+   "features": [
+    "runtime",
+    "vote_count",
+    "vote_average",
+    "budget",
+    "keywords",
+    "writers",
+    "composers",
+    "cinematographers"
+   ],
+   "evaluated_masks": 452,
+   "minutes": 1.6
+  },
+  "11": {
+   "k": 11,
+   "fitness": 0.39711,
+   "accuracy": 0.39801,
+   "n_features": 9,
+   "features": [
+    "runtime",
+    "vote_count",
+    "vote_average",
+    "budget",
+    "companies",
+    "writers",
+    "composers",
+    "cinematographers",
+    "overview"
+   ],
+   "evaluated_masks": 364,
+   "minutes": 1.4
+  },
+  "15": {
+   "k": 15,
+   "fitness": 0.40329,
+   "accuracy": 0.40419,
+   "n_features": 9,
+   "features": [
+    "vote_count",
+    "vote_average",
+    "budget",
+    "keywords",
+    "companies",
+    "writers",
+    "composers",
+    "cinematographers",
+    "overview"
+   ],
+   "evaluated_masks": 408,
+   "minutes": 1.6
+  },
+  "20": {
+   "k": 20,
+   "fitness": 0.40777,
+   "accuracy": 0.40847,
+   "n_features": 7,
+   "features": [
+    "vote_count",
+    "vote_average",
+    "budget",
+    "language",
+    "companies",
+    "composers",
+    "cinematographers"
+   ],
+   "evaluated_masks": 466,
+   "minutes": 1.9
+  },
+  "45": {
+   "k": 45,
+   "fitness": 0.41726,
+   "accuracy": 0.41766,
+   "n_features": 4,
+   "features": [
+    "budget",
+    "directors",
+    "cast",
+    "companies"
+   ],
+   "evaluated_masks": 314,
+   "minutes": 1.4
+  },
+  "30": {
+   "k": 30,
+   "fitness": 0.41277,
+   "accuracy": 0.41347,
+   "n_features": 7,
+   "features": [
+    "vote_average",
+    "budget",
+    "language",
+    "keywords",
+    "companies",
+    "composers",
+    "cinematographers"
+   ],
+   "evaluated_masks": 504,
+   "minutes": 2.1
+  }
+ }
+}

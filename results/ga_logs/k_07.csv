@@ -1,0 +1,27 @@
+generation,best_fit,generation_best,generation_mean,generation_worst,n_features,best_mask,features,evaluated_masks
+1,0.379333,0.379333,0.330715,0.138696,13,1 1 1 1 0 0 1 1 1 1 0 0 1 1 1 1 1,"year, runtime, vote_count, vote_average, genres, keywords, directors, cast, writers, composers, cinematographers, cast_wide, overview",30
+2,0.381061,0.381061,0.375877,0.368339,10,0 1 1 0 1 1 0 1 0 1 0 1 1 0 0 1 1,"runtime, vote_count, budget, language, keywords, cast, companies, writers, cast_wide, overview",55
+3,0.381061,0.381061,0.377273,0.372567,10,0 1 1 0 1 1 0 1 0 1 0 1 1 0 0 1 1,"runtime, vote_count, budget, language, keywords, cast, companies, writers, cast_wide, overview",81
+4,0.381433,0.381433,0.378228,0.373115,10,0 1 1 1 1 0 0 1 0 1 0 0 1 0 1 1 1,"runtime, vote_count, vote_average, budget, keywords, cast, writers, cinematographers, cast_wide, overview",105
+5,0.382009,0.382009,0.379099,0.373667,12,1 1 1 1 1 0 0 1 0 1 0 0 1 1 1 1 1,"year, runtime, vote_count, vote_average, budget, keywords, cast, writers, composers, cinematographers, cast_wide, overview",128
+6,0.383661,0.383661,0.379495,0.375747,11,1 1 1 1 1 0 0 0 0 1 0 0 1 1 1 1 1,"year, runtime, vote_count, vote_average, budget, cast, writers, composers, cinematographers, cast_wide, overview",153
+7,0.384396,0.384396,0.380435,0.377071,8,0 1 1 1 1 0 0 1 0 0 0 0 0 1 1 1 0,"runtime, vote_count, vote_average, budget, keywords, composers, cinematographers, cast_wide",176
+8,0.385058,0.385058,0.380846,0.372936,11,0 1 1 1 1 0 0 1 0 1 0 1 1 1 1 1 0,"runtime, vote_count, vote_average, budget, keywords, cast, companies, writers, composers, cinematographers, cast_wide",198
+9,0.385058,0.385058,0.381825,0.377078,11,0 1 1 1 1 0 0 1 0 1 0 1 1 1 1 1 0,"runtime, vote_count, vote_average, budget, keywords, cast, companies, writers, composers, cinematographers, cast_wide",221
+10,0.385065,0.385065,0.382419,0.375954,10,0 1 1 1 1 0 0 1 0 1 0 1 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, cast, companies, writers, composers, cinematographers",241
+11,0.385065,0.385065,0.38232,0.375691,10,0 1 1 1 1 0 0 1 0 1 0 1 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, cast, companies, writers, composers, cinematographers",256
+12,0.385134,0.385134,0.383441,0.37723,9,0 1 1 1 1 0 0 1 0 0 0 1 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, companies, writers, composers, cinematographers",270
+13,0.38532,0.38532,0.383393,0.376498,9,0 1 1 1 1 0 0 1 0 1 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, cast, writers, composers, cinematographers",282
+14,0.38532,0.38532,0.383188,0.377733,9,0 1 1 1 1 0 0 1 0 1 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, cast, writers, composers, cinematographers",297
+15,0.38532,0.38532,0.382998,0.379061,9,0 1 1 1 1 0 0 1 0 1 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, cast, writers, composers, cinematographers",315
+16,0.385482,0.385482,0.382192,0.376233,8,0 1 1 1 1 0 0 1 0 0 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, writers, composers, cinematographers",335
+17,0.385482,0.385482,0.383179,0.377571,8,0 1 1 1 1 0 0 1 0 0 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, writers, composers, cinematographers",349
+18,0.385482,0.385482,0.382914,0.376885,8,0 1 1 1 1 0 0 1 0 0 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, writers, composers, cinematographers",360
+19,0.385482,0.385482,0.383036,0.377674,8,0 1 1 1 1 0 0 1 0 0 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, writers, composers, cinematographers",373
+20,0.385482,0.385482,0.381904,0.377019,8,0 1 1 1 1 0 0 1 0 0 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, writers, composers, cinematographers",388
+21,0.385482,0.385482,0.383001,0.377336,8,0 1 1 1 1 0 0 1 0 0 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, writers, composers, cinematographers",402
+22,0.385482,0.385482,0.382624,0.376854,8,0 1 1 1 1 0 0 1 0 0 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, writers, composers, cinematographers",414
+23,0.385482,0.385482,0.383003,0.377443,8,0 1 1 1 1 0 0 1 0 0 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, writers, composers, cinematographers",428
+24,0.385482,0.385482,0.383247,0.376636,8,0 1 1 1 1 0 0 1 0 0 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, writers, composers, cinematographers",439
+25,0.385482,0.385482,0.382929,0.376767,8,0 1 1 1 1 0 0 1 0 0 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, writers, composers, cinematographers",446
+26,0.385482,0.385482,0.383172,0.378392,8,0 1 1 1 1 0 0 1 0 0 0 0 1 1 1 0 0,"runtime, vote_count, vote_average, budget, keywords, writers, composers, cinematographers",452

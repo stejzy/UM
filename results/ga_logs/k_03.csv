@@ -1,0 +1,18 @@
+generation,best_fit,generation_best,generation_mean,generation_worst,n_features,best_mask,features,evaluated_masks
+1,0.350969,0.350969,0.306279,0.138447,8,1 0 0 1 0 0 1 1 1 0 1 1 0 0 1 0 0,"year, vote_average, genres, keywords, directors, countries, companies, cinematographers",30
+2,0.353631,0.353631,0.346653,0.308497,9,1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 0 0,"year, runtime, vote_average, genres, keywords, directors, countries, companies, cinematographers",53
+3,0.353631,0.353631,0.349185,0.343217,9,1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 0 0,"year, runtime, vote_average, genres, keywords, directors, countries, companies, cinematographers",80
+4,0.353731,0.353731,0.350668,0.346134,8,1 1 0 1 0 0 1 0 1 0 1 1 0 0 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, cinematographers",104
+5,0.353731,0.353731,0.351778,0.347576,8,1 1 0 1 0 0 1 0 1 0 1 1 0 0 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, cinematographers",121
+6,0.353731,0.353731,0.352168,0.345807,8,1 1 0 1 0 0 1 0 1 0 1 1 0 0 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, cinematographers",136
+7,0.354438,0.354438,0.352123,0.346724,9,1 1 0 1 0 0 1 0 1 0 1 1 0 1 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, composers, cinematographers",154
+8,0.354438,0.354438,0.352252,0.349452,9,1 1 0 1 0 0 1 0 1 0 1 1 0 1 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, composers, cinematographers",169
+9,0.354438,0.354438,0.352643,0.34989,9,1 1 0 1 0 0 1 0 1 0 1 1 0 1 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, composers, cinematographers",182
+10,0.354438,0.354438,0.352731,0.348634,9,1 1 0 1 0 0 1 0 1 0 1 1 0 1 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, composers, cinematographers",199
+11,0.354438,0.354438,0.35333,0.348572,9,1 1 0 1 0 0 1 0 1 0 1 1 0 1 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, composers, cinematographers",208
+12,0.354438,0.354438,0.352474,0.347127,9,1 1 0 1 0 0 1 0 1 0 1 1 0 1 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, composers, cinematographers",224
+13,0.354438,0.354438,0.352736,0.349307,9,1 1 0 1 0 0 1 0 1 0 1 1 0 1 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, composers, cinematographers",235
+14,0.354438,0.354438,0.352922,0.347503,9,1 1 0 1 0 0 1 0 1 0 1 1 0 1 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, composers, cinematographers",244
+15,0.354438,0.354438,0.353098,0.34951,9,1 1 0 1 0 0 1 0 1 0 1 1 0 1 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, composers, cinematographers",254
+16,0.354438,0.354438,0.352388,0.34681,9,1 1 0 1 0 0 1 0 1 0 1 1 0 1 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, composers, cinematographers",266
+17,0.354438,0.354438,0.352506,0.348417,9,1 1 0 1 0 0 1 0 1 0 1 1 0 1 1 0 0,"year, runtime, vote_average, genres, directors, countries, companies, composers, cinematographers",276

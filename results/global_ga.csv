@@ -1,0 +1,10 @@
+k,fitness,accuracy,n_features,features,evaluated_masks,minutes
+3,0.35444,0.35534,9,"year, runtime, vote_average, genres, directors, countries, companies, composers, cinematographers",276,0.9
+5,0.37568,0.37638,7,"year, vote_count, budget, keywords, companies, writers, composers",396,1.4
+7,0.38548,0.38628,8,"runtime, vote_count, vote_average, budget, keywords, writers, composers, cinematographers",452,1.6
+9,0.39032,0.39072,4,"vote_average, budget, directors, companies",429,1.6
+11,0.39711,0.39801,9,"runtime, vote_count, vote_average, budget, companies, writers, composers, cinematographers, overview",364,1.4
+15,0.40329,0.40419,9,"vote_count, vote_average, budget, keywords, companies, writers, composers, cinematographers, overview",408,1.6
+20,0.40777,0.40847,7,"vote_count, vote_average, budget, language, companies, composers, cinematographers",466,1.9
+30,0.41277,0.41347,7,"vote_average, budget, language, keywords, companies, composers, cinematographers",504,2.1
+45,0.41726,0.41766,4,"budget, directors, cast, companies",314,1.4

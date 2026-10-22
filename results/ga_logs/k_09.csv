@@ -1,0 +1,24 @@
+generation,best_fit,generation_best,generation_mean,generation_worst,n_features,best_mask,features,evaluated_masks
+1,0.385668,0.385668,0.33656,0.138696,8,1 0 1 0 1 0 0 1 1 0 0 1 0 1 0 0 1,"year, vote_count, budget, keywords, directors, companies, composers, overview",30
+2,0.386413,0.386413,0.370777,0.196976,8,1 0 0 1 0 0 0 1 0 0 0 1 1 1 1 1 0,"year, vote_average, keywords, companies, writers, composers, cinematographers, cast_wide",53
+3,0.389082,0.389082,0.383711,0.359835,8,0 0 1 1 1 0 0 1 0 0 0 1 1 0 1 1 0,"vote_count, vote_average, budget, keywords, companies, writers, cinematographers, cast_wide",80
+4,0.389175,0.389175,0.385576,0.378026,8,0 0 1 1 1 0 0 1 1 0 0 0 1 0 1 1 0,"vote_count, vote_average, budget, keywords, directors, writers, cinematographers, cast_wide",105
+5,0.389375,0.389375,0.386692,0.382844,6,0 0 0 1 1 0 0 1 1 0 0 1 0 0 1 0 0,"vote_average, budget, keywords, directors, companies, cinematographers",129
+6,0.389375,0.389375,0.38713,0.38123,6,0 0 0 1 1 0 0 1 1 0 0 1 0 0 1 0 0,"vote_average, budget, keywords, directors, companies, cinematographers",153
+7,0.389455,0.389455,0.387959,0.382595,8,0 0 0 1 1 0 0 1 1 0 0 1 1 0 1 1 0,"vote_average, budget, keywords, directors, companies, writers, cinematographers, cast_wide",173
+8,0.389727,0.389727,0.388235,0.382954,9,0 0 1 1 0 1 0 1 0 0 0 1 1 1 1 1 0,"vote_count, vote_average, language, keywords, companies, writers, composers, cinematographers, cast_wide",195
+9,0.39022,0.39022,0.387245,0.382509,5,0 0 0 1 1 0 0 0 1 1 0 1 0 0 0 0 0,"vote_average, budget, directors, cast, companies",213
+10,0.39022,0.39022,0.387017,0.380968,5,0 0 0 1 1 0 0 0 1 1 0 1 0 0 0 0 0,"vote_average, budget, directors, cast, companies",233
+11,0.39022,0.39022,0.387275,0.381113,5,0 0 0 1 1 0 0 0 1 1 0 1 0 0 0 0 0,"vote_average, budget, directors, cast, companies",252
+12,0.39022,0.39022,0.387374,0.380399,5,0 0 0 1 1 0 0 0 1 1 0 1 0 0 0 0 0,"vote_average, budget, directors, cast, companies",270
+13,0.39032,0.39032,0.387711,0.380381,4,0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0,"vote_average, budget, directors, companies",288
+14,0.39032,0.39032,0.387586,0.383151,4,0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0,"vote_average, budget, directors, companies",302
+15,0.39032,0.39032,0.386903,0.38153,4,0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0,"vote_average, budget, directors, companies",321
+16,0.39032,0.39032,0.388572,0.382726,4,0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0,"vote_average, budget, directors, companies",333
+17,0.39032,0.39032,0.388362,0.382778,4,0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0,"vote_average, budget, directors, companies",343
+18,0.39032,0.39032,0.387825,0.381951,4,0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0,"vote_average, budget, directors, companies",355
+19,0.39032,0.39032,0.388304,0.382778,4,0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0,"vote_average, budget, directors, companies",369
+20,0.39032,0.39032,0.387744,0.381933,4,0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0,"vote_average, budget, directors, companies",381
+21,0.39032,0.39032,0.387446,0.379799,4,0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0,"vote_average, budget, directors, companies",399
+22,0.39032,0.39032,0.387856,0.382647,4,0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0,"vote_average, budget, directors, companies",414
+23,0.39032,0.39032,0.387383,0.380561,4,0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0,"vote_average, budget, directors, companies",429

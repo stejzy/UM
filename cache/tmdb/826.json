@@ -1,0 +1,752 @@
+{
+ "adult": false,
+ "backdrop_path": "/cGi9obHiooPoNR4JX72L9RooeOY.jpg",
+ "belongs_to_collection": null,
+ "budget": 2800000,
+ "genres": [
+  {
+   "id": 18,
+   "name": "Drama"
+  },
+  {
+   "id": 36,
+   "name": "History"
+  },
+  {
+   "id": 10752,
+   "name": "War"
+  }
+ ],
+ "homepage": "",
+ "id": 826,
+ "imdb_id": "tt0050212",
+ "origin_country": [
+  "GB"
+ ],
+ "original_language": "en",
+ "original_title": "The Bridge on the River Kwai",
+ "overview": "The classic story of English POWs in Burma forced to build a bridge to aid the war effort of their Japanese captors. British and American intelligence officers conspire to blow up the structure, but Col. Nicholson, the commander who supervised the bridge's construction, has acquired a sense of pride in his creation and tries to foil their plans.",
+ "popularity": 11.0216,
+ "poster_path": "/7paXMt2e3Tr5dLmEZOGgFEn2Vo7.jpg",
+ "production_companies": [
+  {
+   "id": 11356,
+   "logo_path": null,
+   "name": "Horizon Pictures",
+   "origin_country": "GB"
+  }
+ ],
+ "production_countries": [
+  {
+   "iso_3166_1": "GB",
+   "name": "United Kingdom"
+  }
+ ],
+ "release_date": "1957-10-11",
+ "revenue": 44908000,
+ "runtime": 162,
+ "softcore": false,
+ "spoken_languages": [
+  {
+   "english_name": "Japanese",
+   "iso_639_1": "ja",
+   "name": "日本語"
+  },
+  {
+   "english_name": "Thai",
+   "iso_639_1": "th",
+   "name": "ภาษาไทย"
+  },
+  {
+   "english_name": "English",
+   "iso_639_1": "en",
+   "name": "English"
+  }
+ ],
+ "status": "Released",
+ "tagline": "It spans a whole new world of entertainment!",
+ "title": "The Bridge on the River Kwai",
+ "video": false,
+ "vote_average": 7.818,
+ "vote_count": 2484,
+ "credits": {
+  "cast": [
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 8252,
+    "known_for_department": "Acting",
+    "name": "William Holden",
+    "original_name": "William Holden",
+    "popularity": 2.4053,
+    "profile_path": "/eMdXRtJVvescfdxHAINVf7dcpAV.jpg",
+    "cast_id": 12,
+    "character": "Cmdr. Shears",
+    "credit_id": "52fe427dc3a36847f8022aa5",
+    "order": 0
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 12248,
+    "known_for_department": "Acting",
+    "name": "Alec Guinness",
+    "original_name": "Alec Guinness",
+    "popularity": 3.1432,
+    "profile_path": "/qaN3cZdd2pvKaOXIIJ5BXnbjPp3.jpg",
+    "cast_id": 14,
+    "character": "Col. Nicholson",
+    "credit_id": "52fe427dc3a36847f8022aad",
+    "order": 1
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 10018,
+    "known_for_department": "Acting",
+    "name": "Jack Hawkins",
+    "original_name": "Jack Hawkins",
+    "popularity": 1.795,
+    "profile_path": "/pfpe9NQrcrTrxMeU0xGsh1XRBOK.jpg",
+    "cast_id": 13,
+    "character": "Maj. Warden",
+    "credit_id": "52fe427dc3a36847f8022aa9",
+    "order": 2
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 12249,
+    "known_for_department": "Acting",
+    "name": "Sessue Hayakawa",
+    "original_name": "Sessue Hayakawa",
+    "popularity": 1.2617,
+    "profile_path": "/juDoFtoIEMaKZMRL9Ipexkgqw81.jpg",
+    "cast_id": 15,
+    "character": "Col. Saito",
+    "credit_id": "52fe427dc3a36847f8022ab1",
+    "order": 3
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 12250,
+    "known_for_department": "Acting",
+    "name": "James Donald",
+    "original_name": "James Donald",
+    "popularity": 1.6046,
+    "profile_path": "/c1Uc1I8jRw1tdJk1gRG49XY5xKF.jpg",
+    "cast_id": 16,
+    "character": "Maj. Clipton",
+    "credit_id": "52fe427dc3a36847f8022ab5",
+    "order": 4
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 12251,
+    "known_for_department": "Acting",
+    "name": "Geoffrey Horne",
+    "original_name": "Geoffrey Horne",
+    "popularity": 1.4661,
+    "profile_path": "/fhFnWrevffCyaOGUCTgdjVTY3ac.jpg",
+    "cast_id": 17,
+    "character": "Lt. Joyce",
+    "credit_id": "52fe427dc3a36847f8022ab9",
+    "order": 5
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 10029,
+    "known_for_department": "Acting",
+    "name": "André Morell",
+    "original_name": "André Morell",
+    "popularity": 1.0533,
+    "profile_path": "/nY3VaLwWhGNfxQx63Y6TXEe8GFL.jpg",
+    "cast_id": 18,
+    "character": "Col. Green",
+    "credit_id": "52fe427dc3a36847f8022abd",
+    "order": 6
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 12252,
+    "known_for_department": "Acting",
+    "name": "Peter Williams",
+    "original_name": "Peter Williams",
+    "popularity": 0.4644,
+    "profile_path": "/rTJmPemUPuj7zVab9GpwqJzlLpd.jpg",
+    "cast_id": 19,
+    "character": "Capt. Reeves",
+    "credit_id": "52fe427dc3a36847f8022ac1",
+    "order": 7
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1075445,
+    "known_for_department": "Acting",
+    "name": "John Boxer",
+    "original_name": "John Boxer",
+    "popularity": 0.5783,
+    "profile_path": null,
+    "cast_id": 22,
+    "character": "Major Hughes",
+    "credit_id": "52fe427dc3a36847f8022ad1",
+    "order": 8
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 33220,
+    "known_for_department": "Acting",
+    "name": "Percy Herbert",
+    "original_name": "Percy Herbert",
+    "popularity": 1.2108,
+    "profile_path": "/wfyliApDtqvOxLh35Ijj5yyg8Uf.jpg",
+    "cast_id": 23,
+    "character": "Grogan",
+    "credit_id": "52fe427dc3a36847f8022ad5",
+    "order": 9
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1208202,
+    "known_for_department": "Acting",
+    "name": "Harold Goodwin",
+    "original_name": "Harold Goodwin",
+    "popularity": 0.8863,
+    "profile_path": "/dzhElkQmGWrDNWPz8FE5NvBCqud.jpg",
+    "cast_id": 29,
+    "character": "Baker",
+    "credit_id": "52fe427dc3a36847f8022aeb",
+    "order": 10
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 964548,
+    "known_for_department": "Acting",
+    "name": "Ann Sears",
+    "original_name": "Ann Sears",
+    "popularity": 0.9942,
+    "profile_path": "/qTIX9LJ6Dkp28ics5TnMYEcAswE.jpg",
+    "cast_id": 25,
+    "character": "Nurse",
+    "credit_id": "52fe427dc3a36847f8022ad9",
+    "order": 11
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 996689,
+    "known_for_department": "Acting",
+    "name": "Heihachirō Ōkawa",
+    "original_name": "ヘンリー大川",
+    "popularity": 1.3708,
+    "profile_path": "/l2PwXTxohixVVxallCBMrG7CGzk.jpg",
+    "cast_id": 31,
+    "character": "Captain Kanematsu",
+    "credit_id": "5b1f60710e0a264f9b0133ec",
+    "order": 12
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 1748362,
+    "known_for_department": "Acting",
+    "name": "Vilaiwan Seeboonreaung",
+    "original_name": "Vilaiwan Seeboonreaung",
+    "popularity": 0.3647,
+    "profile_path": null,
+    "cast_id": 30,
+    "character": "Siamese Girl",
+    "credit_id": "58912baf9251412dd400027e",
+    "order": 13
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1075447,
+    "known_for_department": "Acting",
+    "name": "Keiichirō Katsumoto",
+    "original_name": "勝本圭一郎",
+    "popularity": 0.6843,
+    "profile_path": "/eY8MykiaixrQpwjwQe0ex4t7rnj.jpg",
+    "cast_id": 27,
+    "character": "Lieutenant Miura",
+    "credit_id": "52fe427dc3a36847f8022ae1",
+    "order": 14
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 3671045,
+    "known_for_department": "Acting",
+    "name": "Ngamta Suppapong",
+    "original_name": "Ngamta Suppapong",
+    "popularity": 0.5896,
+    "profile_path": "/AvkN5cLu8lCk2Ie5fAGVKSWASlV.jpg",
+    "cast_id": 35,
+    "character": "Siamese Girl",
+    "credit_id": "63013f671da7a6007db09033",
+    "order": 15
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 3671046,
+    "known_for_department": "Acting",
+    "name": "Javanart Punynchoti",
+    "original_name": "Javanart Punynchoti",
+    "popularity": 0.3775,
+    "profile_path": null,
+    "cast_id": 36,
+    "character": "Siamese Girl",
+    "credit_id": "63013f7ddfe31d0080104274",
+    "order": 16
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 3671047,
+    "known_for_department": "Acting",
+    "name": "Kannikar Dowklee",
+    "original_name": "Kannikar Dowklee",
+    "popularity": 0.3979,
+    "profile_path": null,
+    "cast_id": 37,
+    "character": "Siamese Girl",
+    "credit_id": "63013f917d41aa0079bd82c0",
+    "order": 17
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 10075,
+    "known_for_department": "Acting",
+    "name": "Tsai Chin",
+    "original_name": "Tsai Chin",
+    "popularity": 1.8964,
+    "profile_path": "/7dMi1bbF2JphxBtqQX5YjDpwoOW.jpg",
+    "cast_id": 39,
+    "character": "Tokyo Rose (voice) (uncredited)",
+    "credit_id": "67dfed72c0b4387a6ec71843",
+    "order": 18
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1806674,
+    "known_for_department": "Acting",
+    "name": "Christopher Greet",
+    "original_name": "Christopher Greet",
+    "popularity": 0.5754,
+    "profile_path": null,
+    "cast_id": 40,
+    "character": "British Officer (uncredited)",
+    "credit_id": "67dfeddcc2d819df69c7259a",
+    "order": 19
+   }
+  ],
+  "crew": [
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 12240,
+    "known_for_department": "Writing",
+    "name": "Pierre Boulle",
+    "original_name": "Pierre Boulle",
+    "popularity": 1.134,
+    "profile_path": null,
+    "credit_id": "52fe427dc3a36847f8022a77",
+    "department": "Writing",
+    "job": "Novel"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 4066,
+    "known_for_department": "Writing",
+    "name": "Carl Foreman",
+    "original_name": "Carl Foreman",
+    "popularity": 1.0669,
+    "profile_path": "/fmvUBlEgFdm7lq4VzmZbhdL8n14.jpg",
+    "credit_id": "52fe427dc3a36847f8022a7d",
+    "department": "Writing",
+    "job": "Screenplay"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 6594,
+    "known_for_department": "Production",
+    "name": "Sam Spiegel",
+    "original_name": "Sam Spiegel",
+    "popularity": 0.8403,
+    "profile_path": "/zM5qW22AbzXUE626uZD0OXNzDWD.jpg",
+    "credit_id": "52fe427dc3a36847f8022a83",
+    "department": "Production",
+    "job": "Producer"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 12241,
+    "known_for_department": "Sound",
+    "name": "Malcolm Arnold",
+    "original_name": "Malcolm Arnold",
+    "popularity": 0.6323,
+    "profile_path": "/vpYejsRgYfjBIGSdbosV3lequzt.jpg",
+    "credit_id": "52fe427dc3a36847f8022a89",
+    "department": "Sound",
+    "job": "Original Music Composer"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 12242,
+    "known_for_department": "Camera",
+    "name": "Jack Hildyard",
+    "original_name": "Jack Hildyard",
+    "popularity": 0.6784,
+    "profile_path": "/cWncV7KXdRlD2Vvx5Hlfw4kfiC.jpg",
+    "credit_id": "52fe427dc3a36847f8022a8f",
+    "department": "Camera",
+    "job": "Director of Photography"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 12243,
+    "known_for_department": "Art",
+    "name": "Donald M. Ashton",
+    "original_name": "Donald M. Ashton",
+    "popularity": 0.5283,
+    "profile_path": null,
+    "credit_id": "52fe427dc3a36847f8022a95",
+    "department": "Art",
+    "job": "Art Direction"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 12246,
+    "known_for_department": "Sound",
+    "name": "John Cox",
+    "original_name": "John Cox",
+    "popularity": 0.6989,
+    "profile_path": null,
+    "credit_id": "52fe427dc3a36847f8022a9b",
+    "department": "Sound",
+    "job": "Sound Designer"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 12247,
+    "known_for_department": "Sound",
+    "name": "John W. Mitchell",
+    "original_name": "John W. Mitchell",
+    "popularity": 0.6525,
+    "profile_path": null,
+    "credit_id": "52fe427dc3a36847f8022aa1",
+    "department": "Sound",
+    "job": "Sound Designer"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 12238,
+    "known_for_department": "Directing",
+    "name": "David Lean",
+    "original_name": "David Lean",
+    "popularity": 1.7025,
+    "profile_path": "/dzwMuydy2x3JwaTBfBSq8c02qz4.jpg",
+    "credit_id": "52fe427dc3a36847f8022ac7",
+    "department": "Directing",
+    "job": "Director"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 11837,
+    "known_for_department": "Costume & Make-Up",
+    "name": "Stuart Freeborn",
+    "original_name": "Stuart Freeborn",
+    "popularity": 0.5999,
+    "profile_path": null,
+    "credit_id": "52fe427dc3a36847f8022acd",
+    "department": "Costume & Make-Up",
+    "job": "Makeup Artist"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 13267,
+    "known_for_department": "Writing",
+    "name": "Michael Wilson",
+    "original_name": "Michael Wilson",
+    "popularity": 0.8833,
+    "profile_path": "/zRcbpTfXH3Tl0I1fwOr09fELyuC.jpg",
+    "credit_id": "52fe427dc3a36847f8022ae7",
+    "department": "Writing",
+    "job": "Screenplay"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 93959,
+    "known_for_department": "Editing",
+    "name": "Peter Taylor",
+    "original_name": "Peter Taylor",
+    "popularity": 0.5544,
+    "profile_path": null,
+    "credit_id": "62cb4e5ce8131d0fbad9b9c0",
+    "department": "Editing",
+    "job": "Editor"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2021354,
+    "known_for_department": "Camera",
+    "name": "Ron Drinkwater",
+    "original_name": "Ron Drinkwater",
+    "popularity": 0.4591,
+    "profile_path": null,
+    "credit_id": "643c3b5846aed402eb4fbb48",
+    "department": "Camera",
+    "job": "Clapper Loader"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2228925,
+    "known_for_department": "Directing",
+    "name": "Ted Sturgis",
+    "original_name": "Ted Sturgis",
+    "popularity": 0.5158,
+    "profile_path": null,
+    "credit_id": "5c7a7e25c3a3681c4b1893a5",
+    "department": "Directing",
+    "job": "Assistant Director"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1980038,
+    "known_for_department": "Directing",
+    "name": "A. B. Raj",
+    "original_name": "A. B. Raj",
+    "popularity": 0.7737,
+    "profile_path": "/jEVDGVxnWWeYcS3fyq4tTDnWGRP.jpg",
+    "credit_id": "5fd0a3028e87020040d5f0d2",
+    "department": "Directing",
+    "job": "Second Unit First Assistant Director"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 38060,
+    "known_for_department": "Costume & Make-Up",
+    "name": "George Partleton",
+    "original_name": "George Partleton",
+    "popularity": 0.4868,
+    "profile_path": null,
+    "credit_id": "68b5a553f3cce1a8241580da",
+    "department": "Costume & Make-Up",
+    "job": "Makeup Artist"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 224003,
+    "known_for_department": "Production",
+    "name": "Cecil F. Ford",
+    "original_name": "Cecil F. Ford",
+    "popularity": 0.6378,
+    "profile_path": null,
+    "credit_id": "68b5a56c7c83cbc3999e21c0",
+    "department": "Production",
+    "job": "Production Manager"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1657537,
+    "known_for_department": "Directing",
+    "name": "Gus Agosti",
+    "original_name": "Gus Agosti",
+    "popularity": 0.6815,
+    "profile_path": null,
+    "credit_id": "68b5a586304a858e879e2456",
+    "department": "Directing",
+    "job": "Assistant Director"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 30926,
+    "known_for_department": "Art",
+    "name": "Geoffrey Drake",
+    "original_name": "Geoffrey Drake",
+    "popularity": 0.4835,
+    "profile_path": null,
+    "credit_id": "68b5a59eecb40f9e46158512",
+    "department": "Art",
+    "job": "Assistant Art Director"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1607521,
+    "known_for_department": "Art",
+    "name": "Peter Dukelow",
+    "original_name": "Peter Dukelow",
+    "popularity": 0.5676,
+    "profile_path": null,
+    "credit_id": "68b5a5aadf709254b09e1f12",
+    "department": "Art",
+    "job": "Construction Manager"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 2421082,
+    "known_for_department": "Lighting",
+    "name": "Archie Dansie",
+    "original_name": "Archie Dansie",
+    "popularity": 0.3435,
+    "profile_path": null,
+    "credit_id": "68b5a5d68c8bae38943cd5c3",
+    "department": "Lighting",
+    "job": "Electrician"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 148745,
+    "known_for_department": "Camera",
+    "name": "Peter Newbrook",
+    "original_name": "Peter Newbrook",
+    "popularity": 0.6699,
+    "profile_path": null,
+    "credit_id": "68b5a5e2959f5bcca8b4f7cf",
+    "department": "Camera",
+    "job": "Camera Operator"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1331435,
+    "known_for_department": "Costume & Make-Up",
+    "name": "John Wilson-Apperson",
+    "original_name": "John Wilson-Apperson",
+    "popularity": 0.5662,
+    "profile_path": null,
+    "credit_id": "68b5a5fbbac59913fcb4fc57",
+    "department": "Costume & Make-Up",
+    "job": "Wardrobe Master"
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 1649182,
+    "known_for_department": "Directing",
+    "name": "Angela Martelli",
+    "original_name": "Angela Martelli",
+    "popularity": 0.494,
+    "profile_path": null,
+    "credit_id": "69f74a995606090590780782",
+    "department": "Directing",
+    "job": "Continuity"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 255,
+    "known_for_department": "Sound",
+    "name": "Winston Ryder",
+    "original_name": "Winston Ryder",
+    "popularity": 0.5057,
+    "profile_path": null,
+    "credit_id": "69f74b536bc306d56b5ec15b",
+    "department": "Sound",
+    "job": "Sound Editor"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2410838,
+    "known_for_department": "Sound",
+    "name": "Harry Pitch",
+    "original_name": "Harry Pitch",
+    "popularity": 0.3004,
+    "profile_path": null,
+    "credit_id": "6ab61fc055bce84e6e48e779",
+    "department": "Sound",
+    "job": "Musician"
+   }
+  ]
+ },
+ "keywords": {
+  "keywords": [
+   {
+    "id": 233,
+    "name": "japan"
+   },
+   {
+    "id": 818,
+    "name": "based on novel or book"
+   },
+   {
+    "id": 836,
+    "name": "resistance"
+   },
+   {
+    "id": 1261,
+    "name": "river"
+   },
+   {
+    "id": 1956,
+    "name": "world war ii"
+   },
+   {
+    "id": 1968,
+    "name": "prisoner of war"
+   },
+   {
+    "id": 3434,
+    "name": "thailand"
+   },
+   {
+    "id": 3450,
+    "name": "bridge"
+   },
+   {
+    "id": 5499,
+    "name": "burma"
+   },
+   {
+    "id": 9525,
+    "name": "pacific war"
+   },
+   {
+    "id": 202371,
+    "name": "aggressive"
+   },
+   {
+    "id": 246195,
+    "name": "bridge blowup"
+   },
+   {
+    "id": 311315,
+    "name": "dramatic"
+   }
+  ]
+ }
+}

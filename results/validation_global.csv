@@ -1,0 +1,4 @@
+predictor,accuracy,accuracy_1,mae
+kNN (parametry globalne),0.41766,0.71207,1.04413
+baseline: najczęstsza ocena,0.41145,0.71223,1.04531
+baseline: średnia ocen,0.32557,0.75453,0.96903

@@ -1,0 +1,31 @@
+generation,best_fit,generation_best,generation_mean,generation_worst,n_features,best_mask,features,evaluated_masks
+1,0.409987,0.409987,0.355446,0.138696,1,0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0,budget,30
+2,0.41007,0.41007,0.406396,0.377426,7,1 0 1 1 1 0 1 0 1 0 0 0 0 1 0 0 0,"year, vote_count, vote_average, budget, genres, directors, composers",56
+3,0.410108,0.410108,0.407916,0.403252,6,1 0 1 1 0 0 0 0 1 1 0 0 0 1 0 0 0,"year, vote_count, vote_average, directors, cast, composers",82
+4,0.410342,0.410342,0.408004,0.405476,8,1 0 1 1 0 0 1 0 1 0 0 1 1 1 0 0 0,"year, vote_count, vote_average, genres, directors, companies, writers, composers",109
+5,0.411287,0.411287,0.408742,0.404583,6,0 0 0 1 1 0 0 0 1 0 0 1 0 1 0 1 0,"vote_average, budget, directors, companies, composers, cast_wide",132
+6,0.411287,0.411287,0.408375,0.40428,6,0 0 0 1 1 0 0 0 1 0 0 1 0 1 0 1 0,"vote_average, budget, directors, companies, composers, cast_wide",158
+7,0.411287,0.411287,0.409042,0.404428,6,0 0 0 1 1 0 0 0 1 0 0 1 0 1 0 1 0,"vote_average, budget, directors, companies, composers, cast_wide",183
+8,0.411573,0.411573,0.409289,0.4045,5,0 0 0 1 1 0 0 0 1 0 0 1 0 1 0 0 0,"vote_average, budget, directors, companies, composers",207
+9,0.411691,0.411691,0.409875,0.403407,6,0 0 0 1 1 0 0 0 1 0 0 1 0 0 1 1 0,"vote_average, budget, directors, companies, cinematographers, cast_wide",229
+10,0.412001,0.412001,0.410548,0.406914,6,0 0 0 1 1 1 0 0 0 0 0 1 0 1 0 1 0,"vote_average, budget, language, companies, composers, cast_wide",248
+11,0.412001,0.412001,0.410619,0.40698,6,0 0 0 1 1 1 0 0 0 0 0 1 0 1 0 1 0,"vote_average, budget, language, companies, composers, cast_wide",267
+12,0.412349,0.412349,0.410202,0.398948,5,0 0 0 1 1 1 0 0 0 0 0 1 0 1 0 0 0,"vote_average, budget, language, companies, composers",290
+13,0.412349,0.412349,0.410708,0.407152,5,0 0 0 1 1 1 0 0 0 0 0 1 0 1 0 0 0,"vote_average, budget, language, companies, composers",311
+14,0.412349,0.412349,0.410712,0.406445,5,0 0 0 1 1 1 0 0 0 0 0 1 0 1 0 0 0,"vote_average, budget, language, companies, composers",328
+15,0.412349,0.412349,0.410512,0.406538,5,0 0 0 1 1 1 0 0 0 0 0 1 0 1 0 0 0,"vote_average, budget, language, companies, composers",342
+16,0.412349,0.412349,0.409876,0.404573,5,0 0 0 1 1 1 0 0 0 0 0 1 0 1 0 0 0,"vote_average, budget, language, companies, composers",361
+17,0.412349,0.412349,0.410967,0.407983,5,0 0 0 1 1 1 0 0 0 0 0 1 0 1 0 0 0,"vote_average, budget, language, companies, composers",374
+18,0.412349,0.412349,0.410794,0.406056,5,0 0 0 1 1 1 0 0 0 0 0 1 0 1 0 0 0,"vote_average, budget, language, companies, composers",384
+19,0.412349,0.412349,0.41065,0.4049,5,0 0 0 1 1 1 0 0 0 0 0 1 0 1 0 0 0,"vote_average, budget, language, companies, composers",394
+20,0.41277,0.41277,0.410454,0.406142,7,0 0 0 1 1 1 0 1 0 0 0 1 0 1 1 0 0,"vote_average, budget, language, keywords, companies, composers, cinematographers",408
+21,0.41277,0.41277,0.410325,0.406897,7,0 0 0 1 1 1 0 1 0 0 0 1 0 1 1 0 0,"vote_average, budget, language, keywords, companies, composers, cinematographers",419
+22,0.41277,0.41277,0.411059,0.408249,7,0 0 0 1 1 1 0 1 0 0 0 1 0 1 1 0 0,"vote_average, budget, language, keywords, companies, composers, cinematographers",429
+23,0.41277,0.41277,0.411,0.407097,7,0 0 0 1 1 1 0 1 0 0 0 1 0 1 1 0 0,"vote_average, budget, language, keywords, companies, composers, cinematographers",437
+24,0.41277,0.41277,0.410846,0.404318,7,0 0 0 1 1 1 0 1 0 0 0 1 0 1 1 0 0,"vote_average, budget, language, keywords, companies, composers, cinematographers",448
+25,0.41277,0.41277,0.410742,0.405311,7,0 0 0 1 1 1 0 1 0 0 0 1 0 1 1 0 0,"vote_average, budget, language, keywords, companies, composers, cinematographers",460
+26,0.41277,0.41277,0.410675,0.405018,7,0 0 0 1 1 1 0 1 0 0 0 1 0 1 1 0 0,"vote_average, budget, language, keywords, companies, composers, cinematographers",469
+27,0.41277,0.41277,0.410771,0.401859,7,0 0 0 1 1 1 0 1 0 0 0 1 0 1 1 0 0,"vote_average, budget, language, keywords, companies, composers, cinematographers",479
+28,0.41277,0.41277,0.411182,0.407176,7,0 0 0 1 1 1 0 1 0 0 0 1 0 1 1 0 0,"vote_average, budget, language, keywords, companies, composers, cinematographers",490
+29,0.41277,0.41277,0.411078,0.407097,7,0 0 0 1 1 1 0 1 0 0 0 1 0 1 1 0 0,"vote_average, budget, language, keywords, companies, composers, cinematographers",499
+30,0.41277,0.41277,0.411214,0.407097,7,0 0 0 1 1 1 0 1 0 0 0 1 0 1 1 0 0,"vote_average, budget, language, keywords, companies, composers, cinematographers",504

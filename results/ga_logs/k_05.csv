@@ -1,0 +1,22 @@
+generation,best_fit,generation_best,generation_mean,generation_worst,n_features,best_mask,features,evaluated_masks
+1,0.372712,0.372712,0.323334,0.138696,10,0 1 1 0 1 1 0 1 0 1 0 1 0 1 1 0 1,"runtime, vote_count, budget, language, keywords, cast, companies, composers, cinematographers, overview",30
+2,0.373202,0.373202,0.366416,0.358428,11,1 1 1 1 1 1 0 1 0 1 0 1 1 0 0 0 1,"year, runtime, vote_count, vote_average, budget, language, keywords, cast, companies, writers, overview",56
+3,0.373202,0.373202,0.368018,0.362556,11,1 1 1 1 1 1 0 1 0 1 0 1 1 0 0 0 1,"year, runtime, vote_count, vote_average, budget, language, keywords, cast, companies, writers, overview",81
+4,0.373202,0.373202,0.369646,0.363394,11,1 1 1 1 1 1 0 1 0 1 0 1 1 0 0 0 1,"year, runtime, vote_count, vote_average, budget, language, keywords, cast, companies, writers, overview",106
+5,0.373202,0.373202,0.370145,0.365853,11,1 1 1 1 1 1 0 1 0 1 0 1 1 0 0 0 1,"year, runtime, vote_count, vote_average, budget, language, keywords, cast, companies, writers, overview",132
+6,0.374295,0.374295,0.371775,0.365549,10,1 1 1 1 1 1 0 1 0 0 0 1 1 0 0 0 1,"year, runtime, vote_count, vote_average, budget, language, keywords, companies, writers, overview",153
+7,0.374295,0.374295,0.371728,0.368022,10,1 1 1 1 1 1 0 1 0 0 0 1 1 0 0 0 1,"year, runtime, vote_count, vote_average, budget, language, keywords, companies, writers, overview",175
+8,0.374295,0.374295,0.372693,0.368777,10,1 1 1 1 1 1 0 1 0 0 0 1 1 0 0 0 1,"year, runtime, vote_count, vote_average, budget, language, keywords, companies, writers, overview",192
+9,0.374402,0.374402,0.371203,0.362856,8,1 0 1 0 1 1 0 1 0 0 0 1 1 1 0 0 0,"year, vote_count, budget, language, keywords, companies, writers, composers",213
+10,0.374619,0.374619,0.371618,0.367894,8,1 0 1 0 1 0 0 1 0 0 0 1 1 1 0 0 1,"year, vote_count, budget, keywords, companies, writers, composers, overview",229
+11,0.375681,0.375681,0.37219,0.364836,7,1 0 1 0 1 0 0 1 0 0 0 1 1 1 0 0 0,"year, vote_count, budget, keywords, companies, writers, composers",248
+12,0.375681,0.375681,0.371412,0.364122,7,1 0 1 0 1 0 0 1 0 0 0 1 1 1 0 0 0,"year, vote_count, budget, keywords, companies, writers, composers",269
+13,0.375681,0.375681,0.372446,0.369474,7,1 0 1 0 1 0 0 1 0 0 0 1 1 1 0 0 0,"year, vote_count, budget, keywords, companies, writers, composers",291
+14,0.375681,0.375681,0.372187,0.366325,7,1 0 1 0 1 0 0 1 0 0 0 1 1 1 0 0 0,"year, vote_count, budget, keywords, companies, writers, composers",308
+15,0.375681,0.375681,0.372881,0.367784,7,1 0 1 0 1 0 0 1 0 0 0 1 1 1 0 0 0,"year, vote_count, budget, keywords, companies, writers, composers",322
+16,0.375681,0.375681,0.372084,0.365539,7,1 0 1 0 1 0 0 1 0 0 0 1 1 1 0 0 0,"year, vote_count, budget, keywords, companies, writers, composers",337
+17,0.375681,0.375681,0.373477,0.367812,7,1 0 1 0 1 0 0 1 0 0 0 1 1 1 0 0 0,"year, vote_count, budget, keywords, companies, writers, composers",350
+18,0.375681,0.375681,0.373303,0.365084,7,1 0 1 0 1 0 0 1 0 0 0 1 1 1 0 0 0,"year, vote_count, budget, keywords, companies, writers, composers",362
+19,0.375681,0.375681,0.373668,0.367077,7,1 0 1 0 1 0 0 1 0 0 0 1 1 1 0 0 0,"year, vote_count, budget, keywords, companies, writers, composers",371
+20,0.375681,0.375681,0.373079,0.365111,7,1 0 1 0 1 0 0 1 0 0 0 1 1 1 0 0 0,"year, vote_count, budget, keywords, companies, writers, composers",381
+21,0.375681,0.375681,0.372434,0.365711,7,1 0 1 0 1 0 0 1 0 0 0 1 1 1 0 0 0,"year, vote_count, budget, keywords, companies, writers, composers",396

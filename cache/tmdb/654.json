@@ -1,0 +1,774 @@
+{
+ "adult": false,
+ "backdrop_path": "/j0qTehcyVVV1VEzrJ7YYtoFmWNw.jpg",
+ "belongs_to_collection": null,
+ "budget": 910000,
+ "genres": [
+  {
+   "id": 80,
+   "name": "Crime"
+  },
+  {
+   "id": 18,
+   "name": "Drama"
+  },
+  {
+   "id": 10749,
+   "name": "Romance"
+  }
+ ],
+ "homepage": "",
+ "id": 654,
+ "imdb_id": "tt0047296",
+ "origin_country": [
+  "US"
+ ],
+ "original_language": "en",
+ "original_title": "On the Waterfront",
+ "overview": "A prizefighter-turned-longshoreman with a conscience goes up against labor leaders to expose corruption, extortion, and murder among the union ranks.",
+ "popularity": 10.6728,
+ "poster_path": "/d4S8LpbCyFJsh1tGgwGQSJdGzKm.jpg",
+ "production_companies": [
+  {
+   "id": 5,
+   "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+   "name": "Columbia Pictures",
+   "origin_country": "US"
+  },
+  {
+   "id": 388,
+   "logo_path": null,
+   "name": "Horizon Pictures",
+   "origin_country": "US"
+  }
+ ],
+ "production_countries": [
+  {
+   "iso_3166_1": "US",
+   "name": "United States of America"
+  }
+ ],
+ "release_date": "1954-06-22",
+ "revenue": 9600631,
+ "runtime": 108,
+ "softcore": false,
+ "spoken_languages": [
+  {
+   "english_name": "English",
+   "iso_639_1": "en",
+   "name": "English"
+  }
+ ],
+ "status": "Released",
+ "tagline": "The man lived by the jungle law of the docks!",
+ "title": "On the Waterfront",
+ "video": false,
+ "vote_average": 7.85,
+ "vote_count": 1864,
+ "credits": {
+  "cast": [
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 3084,
+    "known_for_department": "Acting",
+    "name": "Marlon Brando",
+    "original_name": "Marlon Brando",
+    "popularity": 4.1325,
+    "profile_path": "/yIvLpf9U9NfAvC7fuAgOQ8tu51T.jpg",
+    "cast_id": 10,
+    "character": "Terry Malloy",
+    "credit_id": "52fe4265c3a36847f801b1df",
+    "order": 0
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 2639,
+    "known_for_department": "Acting",
+    "name": "Eva Marie Saint",
+    "original_name": "Eva Marie Saint",
+    "popularity": 2.8577,
+    "profile_path": "/nJgTHDaCA3yl8vDu3nP8S6qjhIx.jpg",
+    "cast_id": 13,
+    "character": "Edie Doyle",
+    "credit_id": "52fe4265c3a36847f801b1eb",
+    "order": 1
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 9857,
+    "known_for_department": "Acting",
+    "name": "Karl Malden",
+    "original_name": "Karl Malden",
+    "popularity": 1.8761,
+    "profile_path": "/njDua2jZ1X1f5SYLzpxDt0hIhYu.jpg",
+    "cast_id": 12,
+    "character": "Father Barry",
+    "credit_id": "52fe4265c3a36847f801b1e7",
+    "order": 2
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 5248,
+    "known_for_department": "Acting",
+    "name": "Lee J. Cobb",
+    "original_name": "Lee J. Cobb",
+    "popularity": 2.7066,
+    "profile_path": "/yxMxBvM0PZwu7YXQamG0kFwt9DZ.jpg",
+    "cast_id": 11,
+    "character": "Johnny Friendly",
+    "credit_id": "52fe4265c3a36847f801b1e3",
+    "order": 3
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 522,
+    "known_for_department": "Acting",
+    "name": "Rod Steiger",
+    "original_name": "Rod Steiger",
+    "popularity": 2.4403,
+    "profile_path": "/70bE5PZJbRHxG4th6gDvXGgXu4Z.jpg",
+    "cast_id": 14,
+    "character": "Charley Malloy",
+    "credit_id": "52fe4265c3a36847f801b1ef",
+    "order": 4
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 9862,
+    "known_for_department": "Acting",
+    "name": "Pat Henning",
+    "original_name": "Pat Henning",
+    "popularity": 0.7498,
+    "profile_path": "/owC4QL8ofk3hWsDVpA1oOTHP2Wc.jpg",
+    "cast_id": 15,
+    "character": "Kayo Dugan",
+    "credit_id": "52fe4265c3a36847f801b1f3",
+    "order": 5
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 9865,
+    "known_for_department": "Acting",
+    "name": "Leif Erickson",
+    "original_name": "Leif Erickson",
+    "popularity": 1.2965,
+    "profile_path": "/nu85lcj5KYc1CZkvmsciw2SGM1V.jpg",
+    "cast_id": 16,
+    "character": "Glover",
+    "credit_id": "52fe4265c3a36847f801b1f7",
+    "order": 6
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 9866,
+    "known_for_department": "Acting",
+    "name": "James Westerfield",
+    "original_name": "James Westerfield",
+    "popularity": 1.166,
+    "profile_path": "/r4YlHYDrJiGUhd61kkkiv3WNEmc.jpg",
+    "cast_id": 17,
+    "character": "Big Mac",
+    "credit_id": "52fe4265c3a36847f801b1fb",
+    "order": 7
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 589670,
+    "known_for_department": "Acting",
+    "name": "Tony Galento",
+    "original_name": "Tony Galento",
+    "popularity": 0.5802,
+    "profile_path": "/83OGOWAHSVwi4iixWztZUIbJ0GI.jpg",
+    "cast_id": 21,
+    "character": "Truck",
+    "credit_id": "52fe4265c3a36847f801b211",
+    "order": 8
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 977544,
+    "known_for_department": "Acting",
+    "name": "Tami Mauriello",
+    "original_name": "Tami Mauriello",
+    "popularity": 0.2607,
+    "profile_path": null,
+    "cast_id": 22,
+    "character": "Tillio",
+    "credit_id": "52fe4265c3a36847f801b215",
+    "order": 9
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 89837,
+    "known_for_department": "Acting",
+    "name": "John F. Hamilton",
+    "original_name": "John F. Hamilton",
+    "popularity": 0.8365,
+    "profile_path": "/3zbsvnJMYjGtKx0sCj4yKm7AZjL.jpg",
+    "cast_id": 23,
+    "character": "'Pop' Doyle",
+    "credit_id": "52fe4265c3a36847f801b219",
+    "order": 10
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 88881,
+    "known_for_department": "Acting",
+    "name": "John Heldabrand",
+    "original_name": "John Heldabrand",
+    "popularity": 0.5475,
+    "profile_path": "/e49YouXz3NoZ88GMIZh4NzOpHza.jpg",
+    "cast_id": 24,
+    "character": "Mott",
+    "credit_id": "52fe4265c3a36847f801b21d",
+    "order": 11
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 3143,
+    "known_for_department": "Acting",
+    "name": "Rudy Bond",
+    "original_name": "Rudy Bond",
+    "popularity": 1.0523,
+    "profile_path": "/bd3YONpGsvQrpz6MkhsqsiPSaOD.jpg",
+    "cast_id": 25,
+    "character": "Moose",
+    "credit_id": "52fe4265c3a36847f801b221",
+    "order": 12
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 976235,
+    "known_for_department": "Acting",
+    "name": "Don Blackman",
+    "original_name": "Don Blackman",
+    "popularity": 0.6286,
+    "profile_path": "/ku5RlQc9LrH2vncyBFRHv2vahVU.jpg",
+    "cast_id": 26,
+    "character": "Luke",
+    "credit_id": "52fe4265c3a36847f801b225",
+    "order": 13
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 977392,
+    "known_for_department": "Acting",
+    "name": "Arthur Keegan",
+    "original_name": "Arthur Keegan",
+    "popularity": 0.347,
+    "profile_path": null,
+    "cast_id": 27,
+    "character": "Jimmy",
+    "credit_id": "52fe4265c3a36847f801b229",
+    "order": 14
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1125637,
+    "known_for_department": "Acting",
+    "name": "Abe Simon",
+    "original_name": "Abe Simon",
+    "popularity": 0.3394,
+    "profile_path": null,
+    "cast_id": 28,
+    "character": "Barney",
+    "credit_id": "52fe4265c3a36847f801b22d",
+    "order": 15
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1936,
+    "known_for_department": "Acting",
+    "name": "Martin Balsam",
+    "original_name": "Martin Balsam",
+    "popularity": 3.1247,
+    "profile_path": "/2q7xs6j6vGll3pc9Mm6TUEvvwBf.jpg",
+    "cast_id": 29,
+    "character": "Gillette (uncredited)",
+    "credit_id": "53124ad492514110130029b9",
+    "order": 16
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 3798291,
+    "known_for_department": "Acting",
+    "name": "Dan Bergin",
+    "original_name": "Dan Bergin",
+    "popularity": 0.3934,
+    "profile_path": null,
+    "cast_id": 46,
+    "character": "Sidney (uncredited)",
+    "credit_id": "643bdb1ada10f01baf64b836",
+    "order": 17
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 218449,
+    "known_for_department": "Acting",
+    "name": "Zachary Charles",
+    "original_name": "Zachary Charles",
+    "popularity": 0.4061,
+    "profile_path": null,
+    "cast_id": 47,
+    "character": "Dues Collector (uncredited)",
+    "credit_id": "643bdb308ec4ab04eeaee0a9",
+    "order": 18
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 56266,
+    "known_for_department": "Acting",
+    "name": "Fred Gwynne",
+    "original_name": "Fred Gwynne",
+    "popularity": 1.8798,
+    "profile_path": "/nO5ufGwURxJ20zYnSgb6l4nYDQO.jpg",
+    "cast_id": 31,
+    "character": "Slim (uncredited)",
+    "credit_id": "53124b0b9251410ffc002911",
+    "order": 19
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 123010,
+    "known_for_department": "Acting",
+    "name": "Anne Hegira",
+    "original_name": "Anne Hegira",
+    "popularity": 0.6046,
+    "profile_path": "/5XhIv2Q5713qmv0JLvkpYkJcr7z.jpg",
+    "cast_id": 48,
+    "character": "Mrs. Collins (uncredited)",
+    "credit_id": "643bdb5846aed404f24f8d99",
+    "order": 20
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 3798,
+    "known_for_department": "Acting",
+    "name": "Pat Hingle",
+    "original_name": "Pat Hingle",
+    "popularity": 2.216,
+    "profile_path": "/pSvLdAxEwluDOee7H1FV4yiq3a2.jpg",
+    "cast_id": 32,
+    "character": "Jocko (uncredited)",
+    "credit_id": "53124b849251410ff1002895",
+    "order": 21
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 1227199,
+    "known_for_department": "Acting",
+    "name": "Katherine MacGregor",
+    "original_name": "Katherine MacGregor",
+    "popularity": 0.9899,
+    "profile_path": "/gR1W13KRLkyzP7Kd776lo599na5.jpg",
+    "cast_id": 45,
+    "character": "Longshoreman's Mother (uncredited)",
+    "credit_id": "640202b9699fb7008f9cda48",
+    "order": 22
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 120459,
+    "known_for_department": "Acting",
+    "name": "Barry Macollum",
+    "original_name": "Barry Macollum",
+    "popularity": 0.5468,
+    "profile_path": null,
+    "cast_id": 49,
+    "character": "Johnny's Banker (uncredited)",
+    "credit_id": "643bdb8b2ea6b90546515117",
+    "order": 23
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1747678,
+    "known_for_department": "Acting",
+    "name": "Tiger Joe Marsh",
+    "original_name": "Tiger Joe Marsh",
+    "popularity": 0.6581,
+    "profile_path": null,
+    "cast_id": 50,
+    "character": "Longshoreman (uncredited)",
+    "credit_id": "643bdb924d679104c1d7920c",
+    "order": 24
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 3160,
+    "known_for_department": "Acting",
+    "name": "Nehemiah Persoff",
+    "original_name": "Nehemiah Persoff",
+    "popularity": 1.4875,
+    "profile_path": "/vJoqhr7HVxP9HLTqt2rxo5OsSvq.jpg",
+    "cast_id": 34,
+    "character": "Cab Driver (uncredited)",
+    "credit_id": "53124bbc9251411008002a50",
+    "order": 25
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 4099,
+    "known_for_department": "Acting",
+    "name": "Johnny Seven",
+    "original_name": "Johnny Seven",
+    "popularity": 0.9992,
+    "profile_path": "/kn6k8OPk4OnAGl2aKp9zOBXfMyw.jpg",
+    "cast_id": 51,
+    "character": "Longshoreman (uncredited)",
+    "credit_id": "643bdb9b46aed404c84f8e4d",
+    "order": 26
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 3172,
+    "known_for_department": "Acting",
+    "name": "Michael V. Gazzo",
+    "original_name": "Michael V. Gazzo",
+    "popularity": 1.2587,
+    "profile_path": "/cTY2Hlf6sIR9xLI95bBir7eI0N.jpg",
+    "cast_id": 53,
+    "character": "Bit (uncredited)",
+    "credit_id": "69a6722d4a9af9de6c28b5a0",
+    "order": 27
+   }
+  ],
+  "crew": [
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 9854,
+    "known_for_department": "Sound",
+    "name": "Jim Shields",
+    "original_name": "Jim Shields",
+    "popularity": 0.5206,
+    "profile_path": null,
+    "credit_id": "52fe4265c3a36847f801b1db",
+    "department": "Sound",
+    "job": "Sound Designer"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 9851,
+    "known_for_department": "Sound",
+    "name": "Leonard Bernstein",
+    "original_name": "Leonard Bernstein",
+    "popularity": 1.0045,
+    "profile_path": "/QMmjkZVQcNboXp37UuSRijDd1c.jpg",
+    "credit_id": "52fe4265c3a36847f801b1c3",
+    "department": "Sound",
+    "job": "Original Music Composer"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 5259,
+    "known_for_department": "Production",
+    "name": "George Justin",
+    "original_name": "George Justin",
+    "popularity": 0.4769,
+    "profile_path": null,
+    "credit_id": "52fe4265c3a36847f801b201",
+    "department": "Production",
+    "job": "Production Manager"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 9850,
+    "known_for_department": "Writing",
+    "name": "Budd Schulberg",
+    "original_name": "Budd Schulberg",
+    "popularity": 0.805,
+    "profile_path": "/grL7yzLBsYfCdSOyAjLgudOhQsf.jpg",
+    "credit_id": "52fe4265c3a36847f801b1b7",
+    "department": "Writing",
+    "job": "Screenplay"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 8506,
+    "known_for_department": "Art",
+    "name": "Richard Day",
+    "original_name": "Richard Day",
+    "popularity": 0.7143,
+    "profile_path": null,
+    "credit_id": "52fe4265c3a36847f801b1d5",
+    "department": "Art",
+    "job": "Art Direction"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 5261,
+    "known_for_department": "Camera",
+    "name": "Boris Kaufman",
+    "original_name": "Boris Kaufman",
+    "popularity": 0.7888,
+    "profile_path": null,
+    "credit_id": "52fe4265c3a36847f801b1c9",
+    "department": "Camera",
+    "job": "Director of Photography"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2746,
+    "known_for_department": "Directing",
+    "name": "Elia Kazan",
+    "original_name": "Elia Kazan",
+    "popularity": 2.2364,
+    "profile_path": "/j8jRoJHrA0QN6MchFpRYDy6ubJF.jpg",
+    "credit_id": "52fe4265c3a36847f801b1b1",
+    "department": "Directing",
+    "job": "Director"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 6594,
+    "known_for_department": "Production",
+    "name": "Sam Spiegel",
+    "original_name": "Sam Spiegel",
+    "popularity": 0.8403,
+    "profile_path": "/zM5qW22AbzXUE626uZD0OXNzDWD.jpg",
+    "credit_id": "52fe4265c3a36847f801b1bd",
+    "department": "Production",
+    "job": "Producer"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 9852,
+    "known_for_department": "Editing",
+    "name": "Gene Milford",
+    "original_name": "Gene Milford",
+    "popularity": 0.4831,
+    "profile_path": null,
+    "credit_id": "52fe4265c3a36847f801b1cf",
+    "department": "Editing",
+    "job": "Editor"
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 6851,
+    "known_for_department": "Costume & Make-Up",
+    "name": "Anna Hill Johnstone",
+    "original_name": "Anna Hill Johnstone",
+    "popularity": 0.7299,
+    "profile_path": null,
+    "credit_id": "5b19ff5e0e0a261f9f00efd3",
+    "department": "Costume & Make-Up",
+    "job": "Wardrobe Supervisor"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1536231,
+    "known_for_department": "Costume & Make-Up",
+    "name": "Fred Carlton Ryle",
+    "original_name": "Fred Carlton Ryle",
+    "popularity": 0.804,
+    "profile_path": null,
+    "credit_id": "5b19ff129251414bc6010710",
+    "department": "Costume & Make-Up",
+    "job": "Makeup Supervisor"
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 2059740,
+    "known_for_department": "Costume & Make-Up",
+    "name": "Flo Transfield",
+    "original_name": "Flo Transfield",
+    "popularity": 0.4287,
+    "profile_path": null,
+    "credit_id": "5b19ff92c3a368491100dacd",
+    "department": "Costume & Make-Up",
+    "job": "Wardrobe Master"
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 590518,
+    "known_for_department": "Costume & Make-Up",
+    "name": "Mary Roche",
+    "original_name": "Mary Roche",
+    "popularity": 0.4408,
+    "profile_path": null,
+    "credit_id": "5b19fd119251414b9200d811",
+    "department": "Costume & Make-Up",
+    "job": "Hairstylist"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 32783,
+    "known_for_department": "Costume & Make-Up",
+    "name": "Bill Herman",
+    "original_name": "Bill Herman",
+    "popularity": 0.5506,
+    "profile_path": null,
+    "credit_id": "5b19ff249251414bd400daee",
+    "department": "Costume & Make-Up",
+    "job": "Makeup Artist"
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 1443001,
+    "known_for_department": "Directing",
+    "name": "Roberta Hodes",
+    "original_name": "Roberta Hodes",
+    "popularity": 0.5246,
+    "profile_path": null,
+    "credit_id": "601b140581a7fc0040ff68ed",
+    "department": "Directing",
+    "job": "Script Supervisor"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 14266,
+    "known_for_department": "Acting",
+    "name": "Guy Thomajan",
+    "original_name": "Guy Thomajan",
+    "popularity": 0.4328,
+    "profile_path": "/AlR79Pmzsg6gF9nqCvieTNfT04F.jpg",
+    "credit_id": "601b1433d96c3c0041156bd4",
+    "department": "Crew",
+    "job": "Dialogue Coach"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 6846,
+    "known_for_department": "Production",
+    "name": "Charles H. Maguire",
+    "original_name": "Charles H. Maguire",
+    "popularity": 0.7266,
+    "profile_path": null,
+    "credit_id": "601b13e4a5046e003e27799e",
+    "department": "Directing",
+    "job": "Assistant Director"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 9850,
+    "known_for_department": "Writing",
+    "name": "Budd Schulberg",
+    "original_name": "Budd Schulberg",
+    "popularity": 0.805,
+    "profile_path": "/grL7yzLBsYfCdSOyAjLgudOhQsf.jpg",
+    "credit_id": "601b128cd7a70a003c365071",
+    "department": "Writing",
+    "job": "Original Story"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1954886,
+    "known_for_department": "Crew",
+    "name": "Samuel Rheiner",
+    "original_name": "Samuel Rheiner",
+    "popularity": 0.356,
+    "profile_path": null,
+    "credit_id": "601b12f581a7fc003f016009",
+    "department": "Production",
+    "job": "Producer's Assistant"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1125636,
+    "known_for_department": "Writing",
+    "name": "Malcolm Johnson",
+    "original_name": "Malcolm Johnson",
+    "popularity": 0.3026,
+    "profile_path": null,
+    "credit_id": "6a42c66c7d1da5591b06130e",
+    "department": "Writing",
+    "job": "Original Story"
+   }
+  ]
+ },
+ "keywords": {
+  "keywords": [
+   {
+    "id": 417,
+    "name": "corruption"
+   },
+   {
+    "id": 586,
+    "name": "new jersey"
+   },
+   {
+    "id": 9826,
+    "name": "murder"
+   },
+   {
+    "id": 10391,
+    "name": "mafia"
+   },
+   {
+    "id": 12999,
+    "name": "black and white"
+   },
+   {
+    "id": 15137,
+    "name": "union"
+   },
+   {
+    "id": 47079,
+    "name": "dock"
+   },
+   {
+    "id": 69467,
+    "name": "longshoreman"
+   },
+   {
+    "id": 156151,
+    "name": "pigeon"
+   },
+   {
+    "id": 191308,
+    "name": "ex-boxer"
+   },
+   {
+    "id": 325811,
+    "name": "excited"
+   }
+  ]
+ }
+}
