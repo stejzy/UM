@@ -1,11 +1,4 @@
-"""Ocena jakości przewidywań: walidacja krzyżowa osobno dla każdej osoby.
-
-Predyktor to funkcja (target, train_idx, train_ratings) -> int 0-5:
-przewiduje ocenę filmu target, znając tylko oceny filmów train_idx.
-
-folds=None  -> leave-one-out: zbiór walidacyjny to zawsze 1 film, 90 rund na osobę
-folds=5     -> 5-krotna walidacja krzyżowa: zbiór walidacyjny to 18 filmów, 5 rund
-"""
+"""Ocena jakości przewidywań: walidacja krzyżowa osobno dla każdej osoby."""
 import numpy as np
 
 from knn import predict, round_rating

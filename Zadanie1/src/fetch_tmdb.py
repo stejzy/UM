@@ -1,7 +1,4 @@
-"""Pobiera dane filmów z TMDB do cache/tmdb/{tmdb_id}.json (jednorazowo).
-
-Wymaga zmiennej środowiskowej TMDB_API_KEY tylko wtedy, gdy w cache czegoś brakuje.
-"""
+"""Pobiera dane filmów z TMDB do cache/tmdb/{tmdb_id}.json (jednorazowo)."""
 import json
 import os
 import time

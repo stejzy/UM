@@ -1,6 +1,4 @@
-"""Funkcje podobieństwa dla typów cech. Każda zwraca wartość z [0, 1]:
-1 = identyczne, 0 = zupełnie różne.
-"""
+"""Funkcje podobieństwa dla typów cech: 1 = identyczne, 0 = zupełnie różne."""
 import math
 
 

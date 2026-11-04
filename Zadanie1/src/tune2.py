@@ -8,32 +8,6 @@ Użycie:
     python src/tune2.py users                        # per osoba -> params/users.json
     python src/tune2.py users --restart              # od nowa (domyślnie wznawia)
     python src/tune2.py users --limit 10             # tylko 10 osób (do testów)
-
-Ustawienia stałe: agregat "wvote", skala "raw".
-
-=== Krok "global" ===
-Dla każdego k algorytm genetyczny szuka jednego zestawu cech dla WSZYSTKICH osób:
-    fitness(maska) = średnia accuracy leave-one-out 358 osób - PENALTY * liczba cech
-Na końcu wybierane jest k (i jego zestaw cech) z najwyższym fitness.
-
-GA dla różnych k są od siebie niezależne, więc liczą się równolegle (--workers procesów).
-Wynik każdego k jest zapisywany od razu (results/global_ga_partial.json), więc przerwane
-obliczenia można wznowić.
-
-Logi GA: results/ga_logs/k_XX.csv, po jednym pliku na k, jeden wiersz na pokolenie
-(najlepszy dotychczas fitness, najlepszy / średni / najgorszy w pokoleniu, maska, cechy).
-Służą do sprawdzenia, czy GA faktycznie zbliżał się do coraz lepszego wyniku.
-
-=== Krok "users" (wymaga params/global_ga.json) ===
-Pętla po osobach, w środku pętla po k, w środku GA na ocenach tylko tej osoby:
-    fitness(maska) = accuracy leave-one-out osoby - PENALTY_USER * liczba cech
-Populacja startowa GA zawiera zestaw globalny i wszystkie cechy. Dla każdej osoby
-wybierane jest k (i jego zestaw cech) z najwyższym fitness, ale przyjmowane tylko wtedy,
-gdy daje co najmniej MARGIN_HITS trafień więcej niż ustawienia globalne. W przeciwnym
-razie osoba dostaje ustawienia globalne (zabezpieczenie przed przeuczeniem).
-
-Osoby liczą się równolegle; po każdej osobie params/users.json jest zapisywany,
-więc przerwane obliczenia można wznowić.
 """
 import argparse
 import csv

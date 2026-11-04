@@ -6,34 +6,6 @@ Użycie:
     python src/validate.py nested                   # walidacja zagnieżdżona (≈ 15 min)
     python src/validate.py nested --restart         # od nowa (domyślnie wznawia)
     python src/validate.py nested --limit 10        # tylko 10 osób (do testów)
-
-Miary: accuracy (trafiona dokładna ocena), acc ±1 (pomyłka o 1 też liczy się jako
-trafienie, tylko do raportu) i MAE (średni błąd bezwzględny).
-
-=== Tryb "loo" ===
-Parametry (k, sposób łączenia, skala, cechy) są wczytywane z pliku JSON i NIE są tu
-stroione. Liczona jest walidacja leave-one-out osobno dla każdej osoby (evaluate.py):
-każdy film przewidywany z pozostałych 89. Dla porównania baseline (najczęstsza
-i średnia ocena osoby).
-Uwaga: parametry dobrano na tych samych danych (LOO na wszystkich osobach), więc wynik
-jest lekko optymistyczny.
-Wynik: tabela w konsoli i results/validation_global.csv.
-
-=== Tryb "nested" (uczciwa ocena strojenia per osoba) ===
-Dla każdej osoby jej oceny są dzielone losowo na FOLDS części (po ok. 18). Dla każdej części:
-1. strojenie per osoba (tune2.tune_user: pętla po k, w środku GA) TYLKO na pozostałych ocenach,
-2. przewidywanie odłożonej części: sąsiedzi wyłącznie spośród ocen treningowych.
-Każda ocena jest więc przewidziana dokładnie raz, modelem, który jej nie widział.
-Na tych samych podziałach przewidywane są też: baseline (najczęstsza ocena w części
-treningowej) i parametry globalne (params/global_ga.json).
-
-Próg trafień jest ten sam co w strojeniu per osoba (tune2.MARGIN_HITS), liczony na ok. 72
-ocenach treningowych. Parametry globalne dobrano na wszystkich ocenach (także odłożonych), więc ich wynik jest
-minimalnie zawyżony (ok. 0.2-0.5 pp), co lekko faworyzuje globalne w porównaniu.
-
-Osoby liczą się równolegle; wynik każdej osoby jest zapisywany od razu
-(results/nested_partial.json), więc przerwane obliczenia można wznowić.
-Wynik: tabela w konsoli i results/validation_nested.csv.
 """
 import argparse
 import csv

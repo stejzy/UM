@@ -1,9 +1,4 @@
-"""Algorytm genetyczny wybierający zestaw cech (maskę 0/1).
-
-Chromosom: wektor 0/1 długości = liczba cech (1 = cecha używana).
-GA nie wie nic o kNN: dostaje funkcję fitness(maska) -> liczba i szuka maski
-o jak najwyższym fitness.
-"""
+"""Algorytm genetyczny wybierający zestaw cech (maskę 0/1)."""
 import csv
 
 import numpy as np

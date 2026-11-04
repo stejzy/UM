@@ -3,14 +3,6 @@
 Użycie:
     python src/predict.py                           # params/global_ga.json -> submission.csv
     python src/predict.py --params params/global.json
-
-Dla każdego wiersza task.csv (osoba, film): kNN z parametrami globalnymi (k, sposób łączenia,
-skala, cechy). Sąsiadami są WSZYSTKIE filmy ocenione przez tę osobę w train.csv.
-Walidacja zagnieżdżona pokazała, że parametry globalne są lepsze od strojenia per osoba,
-więc params/users.json nie jest tu używany.
-
-Wynik: submission.csv w folderze Zadanie1 - kopia task.csv (ten sam format i kolejność
-wierszy), w której "NULL" zastąpiono przewidzianą oceną 0-5.
 """
 import argparse
 from pathlib import Path

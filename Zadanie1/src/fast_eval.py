@@ -1,14 +1,4 @@
-"""Szybka ocena kNN dla jednej osoby: funkcja fitness dla algorytmu genetycznego.
-
-Zamiast pętli po filmach (evaluate.py) wszystko liczone jest macierzowo:
-1. łączna macierz podobieństw filmów osoby = średnia wybranych cech,
-2. jedno sortowanie każdego wiersza daje kolejność sąsiadów,
-3. skumulowane sumy (np.cumsum) dają przewidywania dla wszystkich k naraz.
-
-Wyniki są identyczne z evaluate.py (wariant "raw"), tylko liczone szybciej:
-ok. 3x dla jednego k (tak liczy algorytm genetyczny) i ok. 10x dla wielu k naraz.
-Zestaw cech to maska 0/1 (lub wagi) w kolejności cech z similarity_matrices().
-"""
+"""Szybka ocena kNN dla jednej osoby: funkcja fitness dla algorytmu genetycznego."""
 import numpy as np
 
 

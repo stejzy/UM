@@ -1,8 +1,4 @@
-"""Wyciąga wybrane cechy filmów z cache/tmdb/ do jednego pliku cache/features.json.
-
-Zapisywane są wartości surowe (np. rok 1957); normalizacja odbywa się w kodzie.
-Klucze w pliku to wewnętrzne movie_id (1-200), takie jak w train.csv i task.csv.
-"""
+"""Wyciąga wybrane cechy filmów z cache/tmdb/ do jednego pliku cache/features.json."""
 import json
 from collections import Counter
 

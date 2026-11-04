@@ -1,9 +1,4 @@
-"""Predykcja oceny metodą kNN, osobno dla każdej osoby.
-
-Dla osoby i filmu docelowego: z filmów ocenionych przez tę osobę wybierz k najbardziej
-podobnych (wg macierzy M z sim_matrix.py) i połącz ich oceny w jedną liczbę 0-5.
-Pozycja filmu w macierzy M = movie_id - 1.
-"""
+"""Predykcja oceny metodą kNN, osobno dla każdej osoby."""
 import numpy as np
 
 METHODS = ("vote", "wvote", "mean", "wmean")

@@ -1,12 +1,4 @@
-"""Przygotowanie cech do liczenia podobieństw (w pamięci, bez zapisu do pliku).
-
-Wynik prepare() to słownik {nazwa cechy: wartości dla 200 filmów}, gdzie
-pozycja i odpowiada filmowi MOVIE_IDS[i] (czyli movie_id = i + 1).
-- cechy liczbowe: tablica numpy z wartościami w [0, 1], brak danych = NaN
-- cechy kategoryczne: lista wartości (None = brak)
-- cechy zbiorowe: lista zbiorów Pythona
-- cechy tekstowe: macierz wektorów TF-IDF (każdy wiersz o długości 1)
-"""
+"""Przygotowanie cech do liczenia podobieństw (w pamięci, bez zapisu do pliku)."""
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 

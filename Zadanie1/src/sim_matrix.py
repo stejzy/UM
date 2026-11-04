@@ -1,13 +1,4 @@
-"""Łączna miara podobieństwa filmów.
-
-1. similarity_matrices(): dla każdej cechy macierz podobieństw 200x200, liczona raz.
-2. combined(): średnia ważona tych macierzy -> jedna macierz 200x200 z wartościami w [0, 1].
-
-Dwa warianty skali (do porównania walidacją w etapie 9):
-- "raw": podobieństwa cech takie, jak zwracają funkcje z similarity.py
-- "std": podobieństwa każdej cechy standaryzowane (średnia 0, odchylenie 1 poza przekątną),
-  żeby każda cecha miała podobny wpływ na ranking sąsiadów; wynik przeskalowany do [0, 1]
-"""
+"""Łączna miara podobieństwa filmów."""
 import numpy as np
 
 from preprocess import prepare, FEATURE_TYPES
