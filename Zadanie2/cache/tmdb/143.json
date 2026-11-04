@@ -1,0 +1,1068 @@
+{
+ "adult": false,
+ "backdrop_path": "/yeQGyB8MjpX8KR7rUrP0E3gaviC.jpg",
+ "belongs_to_collection": {
+  "id": 1070848,
+  "name": "All Quiet On The Western Front Collection",
+  "poster_path": "/2lgxH80Dyx2I5yaHoyTgQ9F4L89.jpg",
+  "backdrop_path": null
+ },
+ "budget": 1448864,
+ "genres": [
+  {
+   "id": 18,
+   "name": "Drama"
+  },
+  {
+   "id": 10752,
+   "name": "War"
+  }
+ ],
+ "homepage": "",
+ "id": 143,
+ "imdb_id": "tt0020629",
+ "origin_country": [
+  "US"
+ ],
+ "original_language": "en",
+ "original_title": "All Quiet on the Western Front",
+ "overview": "When a group of idealistic young men join the German Army during the Great War, they are assigned to the Western Front, where their patriotism is destroyed by the harsh realities of combat.",
+ "popularity": 6.1551,
+ "poster_path": "/1wZUB08igw8iLUgF1r4T6aJD65b.jpg",
+ "production_companies": [
+  {
+   "id": 33,
+   "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+   "name": "Universal Pictures",
+   "origin_country": "US"
+  }
+ ],
+ "production_countries": [
+  {
+   "iso_3166_1": "US",
+   "name": "United States of America"
+  }
+ ],
+ "release_date": "1930-04-29",
+ "revenue": 3270000,
+ "runtime": 133,
+ "softcore": false,
+ "spoken_languages": [
+  {
+   "english_name": "English",
+   "iso_639_1": "en",
+   "name": "English"
+  },
+  {
+   "english_name": "French",
+   "iso_639_1": "fr",
+   "name": "Français"
+  },
+  {
+   "english_name": "Latin",
+   "iso_639_1": "la",
+   "name": "Latin"
+  },
+  {
+   "english_name": "German",
+   "iso_639_1": "de",
+   "name": "Deutsch"
+  }
+ ],
+ "status": "Released",
+ "tagline": "They left for war as boys never to return as men.",
+ "title": "All Quiet on the Western Front",
+ "video": false,
+ "vote_average": 7.761,
+ "vote_count": 992,
+ "credits": {
+  "cast": [
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2010,
+    "known_for_department": "Acting",
+    "name": "Louis Wolheim",
+    "original_name": "Louis Wolheim",
+    "popularity": 0.1079,
+    "profile_path": "/unc3IbI5KSZDVRS7o7x6aS8T26e.jpg",
+    "cast_id": 12,
+    "character": "Stanislaus 'Kat' Katczinsky",
+    "credit_id": "52fe421dc3a36847f80053b7",
+    "order": 0
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2007,
+    "known_for_department": "Acting",
+    "name": "Lew Ayres",
+    "original_name": "Lew Ayres",
+    "popularity": 0.9148,
+    "profile_path": "/nNinKMWvSxrhiNMnMkbpUd4HEZO.jpg",
+    "cast_id": 9,
+    "character": "Paul Bäumer",
+    "credit_id": "52fe421dc3a36847f80053ab",
+    "order": 1
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2009,
+    "known_for_department": "Acting",
+    "name": "John Wray",
+    "original_name": "John Wray",
+    "popularity": 0.7176,
+    "profile_path": "/9s4mIx46i6LrWdpDMFwmBXzQr1V.jpg",
+    "cast_id": 11,
+    "character": "Himmelstoss",
+    "credit_id": "52fe421dc3a36847f80053b3",
+    "order": 2
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2008,
+    "known_for_department": "Acting",
+    "name": "Arnold Lucy",
+    "original_name": "Arnold Lucy",
+    "popularity": 0.2636,
+    "profile_path": "/qBHyxxTyZUkHgczNQ3xcE5cIyAV.jpg",
+    "cast_id": 10,
+    "character": "Kantorek",
+    "credit_id": "52fe421dc3a36847f80053af",
+    "order": 3
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2011,
+    "known_for_department": "Acting",
+    "name": "Ben Alexander",
+    "original_name": "Ben Alexander",
+    "popularity": 0.3437,
+    "profile_path": "/9rei98OSExqKecusqft2BV5KR1X.jpg",
+    "cast_id": 13,
+    "character": "Franz Kemmerich",
+    "credit_id": "52fe421dc3a36847f80053bb",
+    "order": 4
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2012,
+    "known_for_department": "Acting",
+    "name": "Scott Kolk",
+    "original_name": "Scott Kolk",
+    "popularity": 0.6376,
+    "profile_path": "/jigS2Fy2u211scDtWzBBWbELBI0.jpg",
+    "cast_id": 14,
+    "character": "Leer",
+    "credit_id": "52fe421dc3a36847f80053bf",
+    "order": 5
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2013,
+    "known_for_department": "Acting",
+    "name": "Owen Davis Jr.",
+    "original_name": "Owen Davis Jr.",
+    "popularity": 1.157,
+    "profile_path": "/p9ORfbiVUug6e35ezzmbvKFKyNk.jpg",
+    "cast_id": 15,
+    "character": "Peter",
+    "credit_id": "52fe421dc3a36847f80053c3",
+    "order": 6
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2014,
+    "known_for_department": "Acting",
+    "name": "Walter Rogers",
+    "original_name": "Walter Rogers",
+    "popularity": 0.321,
+    "profile_path": "/7SXQPmneE6FCIxRfwnHP87T2UqD.jpg",
+    "cast_id": 16,
+    "character": "Behn",
+    "credit_id": "52fe421dc3a36847f80053c7",
+    "order": 7
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2015,
+    "known_for_department": "Acting",
+    "name": "William Bakewell",
+    "original_name": "William Bakewell",
+    "popularity": 0.4439,
+    "profile_path": "/stKgMu22tlNrNg7UJwyCdROwxO8.jpg",
+    "cast_id": 17,
+    "character": "Albert Kropp",
+    "credit_id": "52fe421dc3a36847f80053cb",
+    "order": 8
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 240667,
+    "known_for_department": "Acting",
+    "name": "Russell Gleason",
+    "original_name": "Russell Gleason",
+    "popularity": 0.4083,
+    "profile_path": "/eG0k8AwyJBwcw6XqS2RMz9lJA60.jpg",
+    "cast_id": 38,
+    "character": "Mueller",
+    "credit_id": "590998299251411cf600ad60",
+    "order": 9
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 30197,
+    "known_for_department": "Acting",
+    "name": "Richard Alexander",
+    "original_name": "Richard Alexander",
+    "popularity": 1.4623,
+    "profile_path": "/slzm6BNole2pXxjrfnoeZKmFEUY.jpg",
+    "cast_id": 39,
+    "character": "Westhus",
+    "credit_id": "5909991f9251411ce900b16c",
+    "order": 10
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 80545,
+    "known_for_department": "Acting",
+    "name": "Harold Goodwin",
+    "original_name": "Harold Goodwin",
+    "popularity": 0.4459,
+    "profile_path": "/iBjhsEdnsSs9Ll14rgKrSl33iff.jpg",
+    "cast_id": 40,
+    "character": "Detering",
+    "credit_id": "5909997b9251411cde00b6bc",
+    "order": 11
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2016,
+    "known_for_department": "Acting",
+    "name": "Slim Summerville",
+    "original_name": "Slim Summerville",
+    "popularity": 1.2185,
+    "profile_path": "/940E4Wlj0XNUgwa1JtR2zRnZuNz.jpg",
+    "cast_id": 18,
+    "character": "Tjaden",
+    "credit_id": "52fe421ec3a36847f80053cf",
+    "order": 12
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 98972,
+    "known_for_department": "Acting",
+    "name": "G. Pat Collins",
+    "original_name": "G. Pat Collins",
+    "popularity": 0.5818,
+    "profile_path": "/8FdHCmyhpB9qVHWpr7rZe1vHCJ1.jpg",
+    "cast_id": 41,
+    "character": "Bertinck",
+    "credit_id": "59099b569251411ce900b37b",
+    "order": 13
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 2018,
+    "known_for_department": "Acting",
+    "name": "Beryl Mercer",
+    "original_name": "Beryl Mercer",
+    "popularity": 1.1952,
+    "profile_path": "/vsWop0MRGrjHgwjpt7jerSoeiN1.jpg",
+    "cast_id": 20,
+    "character": "Paul's Mother",
+    "credit_id": "52fe421ec3a36847f80053d7",
+    "order": 14
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 30016,
+    "known_for_department": "Acting",
+    "name": "Edmund Breese",
+    "original_name": "Edmund Breese",
+    "popularity": 0.3753,
+    "profile_path": "/fSnYfBY1xDTDTlaBKq6W2oDnTYK.jpg",
+    "cast_id": 42,
+    "character": "Herr Meyer",
+    "credit_id": "59099b9cc3a368357100b169",
+    "order": 15
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 34098,
+    "known_for_department": "Acting",
+    "name": "Ernie Adams",
+    "original_name": "Ernie Adams",
+    "popularity": 0.5392,
+    "profile_path": "/zpKSSdsuDVofN1GAAbKnkn2GjrL.jpg",
+    "cast_id": 68,
+    "character": "2nd Medic Orderly (uncredited)",
+    "credit_id": "5dc0bf74f1b5710010e95b60",
+    "order": 16
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 1271202,
+    "known_for_department": "Acting",
+    "name": "Marion Clayton Anderson",
+    "original_name": "Marion Clayton Anderson",
+    "popularity": 0.2881,
+    "profile_path": "/vThdLUy8dWDx0OMycx0fsd9qqLI.jpg",
+    "cast_id": 69,
+    "character": "Anna Bäumer (uncredited)",
+    "credit_id": "5dc0bf7eef48890011171f93",
+    "order": 17
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 2449263,
+    "known_for_department": "Acting",
+    "name": "Poupée Andriot",
+    "original_name": "Poupée Andriot",
+    "popularity": 0.4016,
+    "profile_path": null,
+    "cast_id": 70,
+    "character": "French Girl (uncredited)",
+    "credit_id": "5dc0bf9e95c0af00146eeb43",
+    "order": 18
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 13357,
+    "known_for_department": "Acting",
+    "name": "Vince Barnett",
+    "original_name": "Vince Barnett",
+    "popularity": 0.5784,
+    "profile_path": "/7JPdiWXVd6GrI5rJlfYJN2VAGLH.jpg",
+    "cast_id": 71,
+    "character": "Assistant Cook (uncredited)",
+    "credit_id": "5dc0bfaaf1b5710013e9a93b",
+    "order": 19
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 1189502,
+    "known_for_department": "Acting",
+    "name": "Daisy Belmore",
+    "original_name": "Daisy Belmore",
+    "popularity": 0.4517,
+    "profile_path": "/cXzpZsWp7aDxiCZqr9ms4478FJA.jpg",
+    "cast_id": 72,
+    "character": "Frau Kemmerick (uncredited)",
+    "credit_id": "5dc0bfb47d2bc100113901c3",
+    "order": 20
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 984875,
+    "known_for_department": "Acting",
+    "name": "Glen Boles",
+    "original_name": "Glen Boles",
+    "popularity": 0.2981,
+    "profile_path": "/ylcnLRZzPbVhFy7DVX0idDkJhRj.jpg",
+    "cast_id": 73,
+    "character": "Young Soldier (uncredited)",
+    "credit_id": "5dc0bfbdf1b5710010e95c9a",
+    "order": 21
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1250223,
+    "known_for_department": "Acting",
+    "name": "Heinie Conklin",
+    "original_name": "Heinie Conklin",
+    "popularity": 0.8724,
+    "profile_path": "/37E72Hv6GpN4FbjIeMZgSToifsl.jpg",
+    "cast_id": 74,
+    "character": "Joseph Hammacher (uncredited)",
+    "credit_id": "5dc0bfc767b6130018d81408",
+    "order": 22
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 1133401,
+    "known_for_department": "Acting",
+    "name": "Yola d'Avril",
+    "original_name": "Yola d'Avril",
+    "popularity": 0.5936,
+    "profile_path": "/qobUKKyzyMzpPVEdLrsu1f5zqSQ.jpg",
+    "cast_id": 30,
+    "character": "Suzanne (uncredited)",
+    "credit_id": "549d3e299251415dc1004b38",
+    "order": 23
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 2449264,
+    "known_for_department": "Acting",
+    "name": "Renée Damonde",
+    "original_name": "Renée Damonde",
+    "popularity": 0.1383,
+    "profile_path": null,
+    "cast_id": 75,
+    "character": "French Girl (uncredited)",
+    "credit_id": "5dc0bfec67b6130013d800a7",
+    "order": 24
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 41134,
+    "known_for_department": "Production",
+    "name": "Arthur Gardner",
+    "original_name": "Arthur Gardner",
+    "popularity": 0.621,
+    "profile_path": "/2LJpBgC4xZvH0cV5FtPqIJqoE5j.jpg",
+    "cast_id": 76,
+    "character": "Student (uncredited)",
+    "credit_id": "5dc0c0157d2bc100113902ee",
+    "order": 25
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 555890,
+    "known_for_department": "Acting",
+    "name": "Raymond Griffith",
+    "original_name": "Raymond Griffith",
+    "popularity": 0.358,
+    "profile_path": "/5cEBptaTW0zhi9rh7XKq4bPpwsa.jpg",
+    "cast_id": 29,
+    "character": "Gérard Duval (uncredited)",
+    "credit_id": "52fe421ec3a36847f8005405",
+    "order": 26
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 144390,
+    "known_for_department": "Acting",
+    "name": "Ellen Hall",
+    "original_name": "Ellen Hall",
+    "popularity": 0.4306,
+    "profile_path": "/z9uusJPb7EjGlWTFHo4ikM2ja5D.jpg",
+    "cast_id": 77,
+    "character": "Young Girl (uncredited)",
+    "credit_id": "5dc0c0377d2bc10017393c7b",
+    "order": 27
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 97225,
+    "known_for_department": "Acting",
+    "name": "William Irving",
+    "original_name": "William Irving",
+    "popularity": 0.7875,
+    "profile_path": "/iiqaGctkt114uqhBeAycqUNRbe0.jpg",
+    "cast_id": 78,
+    "character": "Ginger - the Cook (uncredited)",
+    "credit_id": "5dc0c042ef488900171766bd",
+    "order": 28
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 135392,
+    "known_for_department": "Writing",
+    "name": "Frederick Kohner",
+    "original_name": "Frederick Kohner",
+    "popularity": 1.1168,
+    "profile_path": null,
+    "cast_id": 79,
+    "character": "Minor Role (uncredited)",
+    "credit_id": "5dc0c05a470ead0018896685",
+    "order": 29
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2449265,
+    "known_for_department": "Acting",
+    "name": "Frank Leichtfried",
+    "original_name": "Frank Leichtfried",
+    "popularity": 0.149,
+    "profile_path": null,
+    "cast_id": 80,
+    "character": "Minor Role (uncredited)",
+    "credit_id": "5dc0c0727d2bc10017393d5a",
+    "order": 30
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 932309,
+    "known_for_department": "Acting",
+    "name": "Tom London",
+    "original_name": "Tom London",
+    "popularity": 0.7467,
+    "profile_path": "/nfLW8J3AMasTu1Ahm0HftRgx9qy.jpg",
+    "cast_id": 81,
+    "character": "1st Medic Orderly (uncredited)",
+    "credit_id": "5dc0c07c95c0af00126f1349",
+    "order": 31
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 1677924,
+    "known_for_department": "Acting",
+    "name": "Bertha Mann",
+    "original_name": "Bertha Mann",
+    "popularity": 0.3772,
+    "profile_path": "/o7P7TpuxSiO0P83cGYqg8J8nvp9.jpg",
+    "cast_id": 82,
+    "character": "Sister Libertine (uncredited)",
+    "credit_id": "5dc0c086470ead001589750f",
+    "order": 32
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 120542,
+    "known_for_department": "Acting",
+    "name": "Joan Marsh",
+    "original_name": "Joan Marsh",
+    "popularity": 0.8082,
+    "profile_path": "/rrOmzFHeSotjDsj8LmdTjrnSksX.jpg",
+    "cast_id": 31,
+    "character": "Poster Girl (uncredited)",
+    "credit_id": "549d3e41c3a3685542002238",
+    "order": 33
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 13361,
+    "known_for_department": "Acting",
+    "name": "Edwin Maxwell",
+    "original_name": "Edwin Maxwell",
+    "popularity": 0.4132,
+    "profile_path": "/k31nSbkIkSqWelDQyWvn5zF1g9q.jpg",
+    "cast_id": 83,
+    "character": "Herr Bäumer (uncredited)",
+    "credit_id": "5dc0c0917d2bc10017393d9a",
+    "order": 34
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1015382,
+    "known_for_department": "Acting",
+    "name": "Jack McHugh",
+    "original_name": "Jack McHugh",
+    "popularity": 0.4746,
+    "profile_path": null,
+    "cast_id": 84,
+    "character": "Schoolboy (uncredited)",
+    "credit_id": "5dc0c09cf1b5710015e9b023",
+    "order": 35
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 44833,
+    "known_for_department": "Acting",
+    "name": "Maurice Murphy",
+    "original_name": "Maurice Murphy",
+    "popularity": 0.3666,
+    "profile_path": "/3l4gtSrCQ1M3wzOBJV3WQNMixYm.jpg",
+    "cast_id": 85,
+    "character": "Soldier (uncredited)",
+    "credit_id": "5dc0c0aa7d2bc100133935d6",
+    "order": 36
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 8514,
+    "known_for_department": "Directing",
+    "name": "Robert Parrish",
+    "original_name": "Robert Parrish",
+    "popularity": 1.3013,
+    "profile_path": "/yK9q7WLaI3QVfesG15IVAV6Rn45.jpg",
+    "cast_id": 86,
+    "character": "Schoolboy (uncredited)",
+    "credit_id": "5dc0c0bc7d2bc10017393e59",
+    "order": 37
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 9090,
+    "known_for_department": "Acting",
+    "name": "Bodil Rosing",
+    "original_name": "Bodil Rosing",
+    "popularity": 0.7213,
+    "profile_path": "/rjaNRj7emocErFxh58ijWPP1OQs.jpg",
+    "cast_id": 87,
+    "character": "Mother of Hospital Patient (uncredited)",
+    "credit_id": "5dc0c0c87d2bc10017393e74",
+    "order": 38
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 14158,
+    "known_for_department": "Directing",
+    "name": "Wolfgang Staudte",
+    "original_name": "Wolfgang Staudte",
+    "popularity": 0.4061,
+    "profile_path": "/oyFOK4UC279zAiMLeqEWj3Ud9si.jpg",
+    "cast_id": 88,
+    "character": "Minor Role (uncredited)",
+    "credit_id": "5dc0c0da9d8939001530f123",
+    "order": 39
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2449266,
+    "known_for_department": "Acting",
+    "name": "Jack Sutherland",
+    "original_name": "Jack Sutherland",
+    "popularity": 0.141,
+    "profile_path": null,
+    "cast_id": 89,
+    "character": "Minor Role (uncredited)",
+    "credit_id": "5dc0c0e595c0af00126f14fc",
+    "order": 40
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 2449267,
+    "known_for_department": "Acting",
+    "name": "David Tyrell",
+    "original_name": "David Tyrell",
+    "popularity": 0.146,
+    "profile_path": null,
+    "cast_id": 90,
+    "character": "Soldier (uncredited)",
+    "credit_id": "5dc0c0f0470ead0018896796",
+    "order": 41
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 927616,
+    "known_for_department": "Acting",
+    "name": "Dorothy Vernon",
+    "original_name": "Dorothy Vernon",
+    "popularity": 0.4494,
+    "profile_path": "/umAgzGIOdNfS4SpeUXLopAAm8oe.jpg",
+    "cast_id": 91,
+    "character": "Charwoman (uncredited)",
+    "credit_id": "5dc0c0fa7d2bc10017393ee1",
+    "order": 42
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 4065,
+    "known_for_department": "Directing",
+    "name": "Fred Zinnemann",
+    "original_name": "Fred Zinnemann",
+    "popularity": 0.5826,
+    "profile_path": "/3x1xznQnnzVZNDdCkOcxuZ5CaQ0.jpg",
+    "cast_id": 32,
+    "character": "German Soldier / French Ambulance Driver (uncredited)",
+    "credit_id": "549d3e579251415dc1004b3b",
+    "order": 43
+   }
+  ],
+  "crew": [
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1557,
+    "known_for_department": "Production",
+    "name": "Carl Laemmle Jr.",
+    "original_name": "Carl Laemmle Jr.",
+    "popularity": 0.3606,
+    "profile_path": "/zwQe4ppr9o1z0PZTdrt9FadxNV1.jpg",
+    "credit_id": "52fe421dc3a36847f800539b",
+    "department": "Production",
+    "job": "Producer"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2000,
+    "known_for_department": "Directing",
+    "name": "Lewis Milestone",
+    "original_name": "Lewis Milestone",
+    "popularity": 1.611,
+    "profile_path": "/zcbvWlJTkFcVJ86Yjsvx82Mjgul.jpg",
+    "credit_id": "52fe421dc3a36847f8005383",
+    "department": "Directing",
+    "job": "Director"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2006,
+    "known_for_department": "Editing",
+    "name": "Edgar Adams",
+    "original_name": "Edgar Adams",
+    "popularity": 0.1575,
+    "profile_path": null,
+    "credit_id": "52fe421dc3a36847f80053a7",
+    "department": "Editing",
+    "job": "Editor"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2004,
+    "known_for_department": "Directing",
+    "name": "George Abbott",
+    "original_name": "George Abbott",
+    "popularity": 0.5376,
+    "profile_path": "/43Tj83RQFgWCkTgpDAgRcbkyqaZ.jpg",
+    "credit_id": "52fe421dc3a36847f8005395",
+    "department": "Writing",
+    "job": "Screenplay"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2005,
+    "known_for_department": "Camera",
+    "name": "Arthur Edeson",
+    "original_name": "Arthur Edeson",
+    "popularity": 0.3419,
+    "profile_path": null,
+    "credit_id": "52fe421dc3a36847f80053a1",
+    "department": "Camera",
+    "job": "Director of Photography"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 67807,
+    "known_for_department": "Writing",
+    "name": "Maxwell Anderson",
+    "original_name": "Maxwell Anderson",
+    "popularity": 0.4981,
+    "profile_path": "/xARC35iIqP903pJrZiaZGgtWEfL.jpg",
+    "credit_id": "52fe421ec3a36847f80053e3",
+    "department": "Writing",
+    "job": "Adaptation"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1552,
+    "known_for_department": "Editing",
+    "name": "Milton Carruth",
+    "original_name": "Milton Carruth",
+    "popularity": 1.5361,
+    "profile_path": null,
+    "credit_id": "52fe421ec3a36847f80053f5",
+    "department": "Editing",
+    "job": "Editor"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2001,
+    "known_for_department": "Writing",
+    "name": "Erich Maria Remarque",
+    "original_name": "Erich Maria Remarque",
+    "popularity": 0.5863,
+    "profile_path": "/q2qAI2Ip9fVvYNQprSenwGrYJK6.jpg",
+    "credit_id": "52fe421dc3a36847f8005389",
+    "department": "Writing",
+    "job": "Novel"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2003,
+    "known_for_department": "Writing",
+    "name": "Del Andrews",
+    "original_name": "Del Andrews",
+    "popularity": 0.8332,
+    "profile_path": null,
+    "credit_id": "52fe421dc3a36847f800538f",
+    "department": "Writing",
+    "job": "Adaptation"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 70,
+    "known_for_department": "Camera",
+    "name": "Karl Freund",
+    "original_name": "Karl Freund",
+    "popularity": 0.4578,
+    "profile_path": "/i967rbvQCVKgtX1BV1fCZ9hkd5E.jpg",
+    "credit_id": "65a05b1696670e0129aba8bf",
+    "department": "Camera",
+    "job": "Director of Photography"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 3945,
+    "known_for_department": "Art",
+    "name": "Charles D. Hall",
+    "original_name": "Charles D. Hall",
+    "popularity": 0.3364,
+    "profile_path": null,
+    "credit_id": "56f01676c3a368718e00014d",
+    "department": "Art",
+    "job": "Art Direction"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2085,
+    "known_for_department": "Sound",
+    "name": "David Broekman",
+    "original_name": "David Broekman",
+    "popularity": 0.1939,
+    "profile_path": null,
+    "credit_id": "56f016b0c3a3687179000149",
+    "department": "Sound",
+    "job": "Music Supervisor"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1593839,
+    "known_for_department": "Art",
+    "name": "William R. Schmidt",
+    "original_name": "William R. Schmidt",
+    "popularity": 0.163,
+    "profile_path": null,
+    "credit_id": "56f01688c3a368717d000168",
+    "department": "Art",
+    "job": "Art Direction"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2085,
+    "known_for_department": "Sound",
+    "name": "David Broekman",
+    "original_name": "David Broekman",
+    "popularity": 0.1939,
+    "profile_path": null,
+    "credit_id": "63ba476afc31d3007e31349c",
+    "department": "Sound",
+    "job": "Music"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 3946,
+    "known_for_department": "Sound",
+    "name": "C. Roy Hunter",
+    "original_name": "C. Roy Hunter",
+    "popularity": 0.3093,
+    "profile_path": null,
+    "credit_id": "5b08946e9251413412000c0d",
+    "department": "Sound",
+    "job": "Recording Supervision"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1553,
+    "known_for_department": "Editing",
+    "name": "Maurice Pivar",
+    "original_name": "Maurice Pivar",
+    "popularity": 0.3575,
+    "profile_path": null,
+    "credit_id": "5cf957410e0a267993d0468d",
+    "department": "Editing",
+    "job": "Supervising Film Editor"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 14475,
+    "known_for_department": "Production",
+    "name": "Carl Laemmle",
+    "original_name": "Carl Laemmle",
+    "popularity": 1.1048,
+    "profile_path": "/4UBMh6AJxS5gUJVlkIgswDc3rlJ.jpg",
+    "credit_id": "5cf959cdc3a36806ee22c858",
+    "department": "Crew",
+    "job": "Presenter"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 144397,
+    "known_for_department": "Directing",
+    "name": "Nate Watt",
+    "original_name": "Nate Watt",
+    "popularity": 0.2607,
+    "profile_path": "/vfuaVV1EFVOoOo8LqSGlibasgG2.jpg",
+    "credit_id": "5cf9557a0e0a2643c6d65ca4",
+    "department": "Directing",
+    "job": "Assistant Director"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 587951,
+    "known_for_department": "Writing",
+    "name": "C. Gardner Sullivan",
+    "original_name": "C. Gardner Sullivan",
+    "popularity": 0.3708,
+    "profile_path": "/4xDAsKDfe8BmRONlcr8UkHrE3uC.jpg",
+    "credit_id": "6970ed465e0aee8cc8fd1143",
+    "department": "Writing",
+    "job": "Story Supervisor"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 14475,
+    "known_for_department": "Production",
+    "name": "Carl Laemmle",
+    "original_name": "Carl Laemmle",
+    "popularity": 1.1048,
+    "profile_path": "/4UBMh6AJxS5gUJVlkIgswDc3rlJ.jpg",
+    "credit_id": "6970f0083c06ec0e10fd10f6",
+    "department": "Production",
+    "job": "Producer"
+   }
+  ]
+ },
+ "keywords": {
+  "keywords": [
+   {
+    "id": 6054,
+    "name": "friendship"
+   },
+   {
+    "id": 6092,
+    "name": "army"
+   },
+   {
+    "id": 818,
+    "name": "based on novel or book"
+   },
+   {
+    "id": 74,
+    "name": "germany"
+   },
+   {
+    "id": 260,
+    "name": "disillusion"
+   },
+   {
+    "id": 2504,
+    "name": "world war i"
+   },
+   {
+    "id": 11139,
+    "name": "steel helmet"
+   },
+   {
+    "id": 1627,
+    "name": "patriotism"
+   },
+   {
+    "id": 10075,
+    "name": "boot camp"
+   },
+   {
+    "id": 10141,
+    "name": "battlefield"
+   },
+   {
+    "id": 11872,
+    "name": "atrocity"
+   },
+   {
+    "id": 12999,
+    "name": "black and white"
+   },
+   {
+    "id": 13065,
+    "name": "soldier"
+   },
+   {
+    "id": 18543,
+    "name": "combat"
+   },
+   {
+    "id": 33638,
+    "name": "warfare"
+   },
+   {
+    "id": 34079,
+    "name": "death"
+   },
+   {
+    "id": 156764,
+    "name": "pre-code"
+   },
+   {
+    "id": 165431,
+    "name": "anti war"
+   },
+   {
+    "id": 177094,
+    "name": "mud"
+   },
+   {
+    "id": 188725,
+    "name": "trenches"
+   },
+   {
+    "id": 227807,
+    "name": "young soldier"
+   },
+   {
+    "id": 230915,
+    "name": "trench warfare"
+   },
+   {
+    "id": 235080,
+    "name": "battlefield trauma"
+   },
+   {
+    "id": 241217,
+    "name": "joining the army"
+   },
+   {
+    "id": 323809,
+    "name": "depressing"
+   },
+   {
+    "id": 341637,
+    "name": "philosophical depiction of war"
+   }
+  ]
+ }
+}

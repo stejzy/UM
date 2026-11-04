@@ -1,0 +1,553 @@
+{
+ "adult": false,
+ "backdrop_path": "/rVdKBzVyHTG1gv8bAAJnr5Eu6gl.jpg",
+ "belongs_to_collection": null,
+ "budget": 3500000,
+ "genres": [
+  {
+   "id": 53,
+   "name": "Thriller"
+  },
+  {
+   "id": 9648,
+   "name": "Mystery"
+  },
+  {
+   "id": 80,
+   "name": "Crime"
+  }
+ ],
+ "homepage": "",
+ "id": 993,
+ "imdb_id": "tt0069281",
+ "origin_country": [
+  "US",
+  "GB"
+ ],
+ "original_language": "en",
+ "original_title": "Sleuth",
+ "overview": "A man who loves games and theatre invites his wife's lover to meet, setting up a battle of wits with potentially deadly results.",
+ "popularity": 3.8986,
+ "poster_path": "/jAREYLUnYGwPjbQr0vs1s38QLkH.jpg",
+ "production_companies": [
+  {
+   "id": 12146,
+   "logo_path": null,
+   "name": "Palomar Pictures International",
+   "origin_country": "US"
+  }
+ ],
+ "production_countries": [
+  {
+   "iso_3166_1": "GB",
+   "name": "United Kingdom"
+  },
+  {
+   "iso_3166_1": "US",
+   "name": "United States of America"
+  }
+ ],
+ "release_date": "1972-12-10",
+ "revenue": 5750000,
+ "runtime": 138,
+ "softcore": false,
+ "spoken_languages": [
+  {
+   "english_name": "Italian",
+   "iso_639_1": "it",
+   "name": "Italiano"
+  },
+  {
+   "english_name": "English",
+   "iso_639_1": "en",
+   "name": "English"
+  }
+ ],
+ "status": "Released",
+ "tagline": "Think of the perfect crime... Then go one step further.",
+ "title": "Sleuth",
+ "video": false,
+ "vote_average": 7.683,
+ "vote_count": 758,
+ "credits": {
+  "cast": [
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 3359,
+    "known_for_department": "Acting",
+    "name": "Laurence Olivier",
+    "original_name": "Laurence Olivier",
+    "popularity": 2.3394,
+    "profile_path": "/kziWbtgEJB0dFZA6kPyzoaYEyQ5.jpg",
+    "cast_id": 15,
+    "character": "Andrew Wyke",
+    "credit_id": "52fe4297c3a36847f802ab87",
+    "order": 0
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 3895,
+    "known_for_department": "Acting",
+    "name": "Michael Caine",
+    "original_name": "Michael Caine",
+    "popularity": 8.4543,
+    "profile_path": "/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg",
+    "cast_id": 16,
+    "character": "Milo Tindle",
+    "credit_id": "52fe4297c3a36847f802ab8b",
+    "order": 1
+   }
+  ],
+  "crew": [
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 8524,
+    "known_for_department": "Art",
+    "name": "Peter Lamont",
+    "original_name": "Peter Lamont",
+    "popularity": 0.4597,
+    "profile_path": "/fYRYLO1GTvXULvwR2EfyHyFH1Ve.jpg",
+    "credit_id": "52fe4297c3a36847f802ab71",
+    "department": "Art",
+    "job": "Art Direction"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 7750,
+    "known_for_department": "Writing",
+    "name": "Anthony Shaffer",
+    "original_name": "Anthony Shaffer",
+    "popularity": 0.7547,
+    "profile_path": "/rvvyyh4IRtnZZ7iwCSHJIwewIwt.jpg",
+    "credit_id": "52fe4297c3a36847f802ab3b",
+    "department": "Writing",
+    "job": "Screenplay"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 7750,
+    "known_for_department": "Writing",
+    "name": "Anthony Shaffer",
+    "original_name": "Anthony Shaffer",
+    "popularity": 0.7547,
+    "profile_path": "/rvvyyh4IRtnZZ7iwCSHJIwewIwt.jpg",
+    "credit_id": "52fe4297c3a36847f802ab41",
+    "department": "Writing",
+    "job": "Theatre Play"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 14930,
+    "known_for_department": "Sound",
+    "name": "John Addison",
+    "original_name": "John Addison",
+    "popularity": 0.5282,
+    "profile_path": "/ltAUptHmKFTmDlrI1R6IQ810fwJ.jpg",
+    "credit_id": "52fe4297c3a36847f802ab59",
+    "department": "Sound",
+    "job": "Original Music Composer"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 14929,
+    "known_for_department": "Production",
+    "name": "Edgar J. Scherick",
+    "original_name": "Edgar J. Scherick",
+    "popularity": 0.3126,
+    "profile_path": null,
+    "credit_id": "52fe4297c3a36847f802ab53",
+    "department": "Production",
+    "job": "Executive Producer"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 10601,
+    "known_for_department": "Writing",
+    "name": "Joseph L. Mankiewicz",
+    "original_name": "Joseph L. Mankiewicz",
+    "popularity": 0.5873,
+    "profile_path": "/qfs773ZGMwojZTl0WKM7b7qh8Mu.jpg",
+    "credit_id": "52fe4297c3a36847f802ab35",
+    "department": "Directing",
+    "job": "Director"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 9869,
+    "known_for_department": "Art",
+    "name": "Ken Adam",
+    "original_name": "Ken Adam",
+    "popularity": 0.4785,
+    "profile_path": "/eRUuXpalQGuY3KAXPrn54c390dX.jpg",
+    "credit_id": "52fe4297c3a36847f802ab6b",
+    "department": "Art",
+    "job": "Production Design"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 10339,
+    "known_for_department": "Camera",
+    "name": "Oswald Morris",
+    "original_name": "Oswald Morris",
+    "popularity": 0.2775,
+    "profile_path": null,
+    "credit_id": "52fe4297c3a36847f802ab5f",
+    "department": "Camera",
+    "job": "Director of Photography"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 14932,
+    "known_for_department": "Art",
+    "name": "John Jarvis",
+    "original_name": "John Jarvis",
+    "popularity": 0.2429,
+    "profile_path": null,
+    "credit_id": "52fe4297c3a36847f802ab77",
+    "department": "Art",
+    "job": "Set Decoration"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 14933,
+    "known_for_department": "Costume & Make-Up",
+    "name": "John Furniss",
+    "original_name": "John Furniss",
+    "popularity": 0.2724,
+    "profile_path": null,
+    "credit_id": "52fe4297c3a36847f802ab7d",
+    "department": "Costume & Make-Up",
+    "job": "Costume Design"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 14931,
+    "known_for_department": "Editing",
+    "name": "Richard Marden",
+    "original_name": "Richard Marden",
+    "popularity": 0.4053,
+    "profile_path": null,
+    "credit_id": "52fe4297c3a36847f802ab65",
+    "department": "Editing",
+    "job": "Editor"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1072002,
+    "known_for_department": "Production",
+    "name": "Morton Gottlieb",
+    "original_name": "Morton Gottlieb",
+    "popularity": 0.1491,
+    "profile_path": null,
+    "credit_id": "59194be3c3a36842c1055792",
+    "department": "Production",
+    "job": "Producer"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 20110,
+    "known_for_department": "Sound",
+    "name": "Don Sharpe",
+    "original_name": "Don Sharpe",
+    "popularity": 0.2913,
+    "profile_path": null,
+    "credit_id": "5d4985d4417aaf00162940ae",
+    "department": "Sound",
+    "job": "Sound Editor"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1561880,
+    "known_for_department": "Sound",
+    "name": "Graham V. Hartstone",
+    "original_name": "Graham V. Hartstone",
+    "popularity": 0.6582,
+    "profile_path": null,
+    "credit_id": "5d4985ea417aaf6ca6290fc6",
+    "department": "Sound",
+    "job": "Sound Re-Recording Mixer"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 14930,
+    "known_for_department": "Sound",
+    "name": "John Addison",
+    "original_name": "John Addison",
+    "popularity": 0.5282,
+    "profile_path": "/ltAUptHmKFTmDlrI1R6IQ810fwJ.jpg",
+    "credit_id": "5d498693a0be281113a11519",
+    "department": "Sound",
+    "job": "Conductor"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2380286,
+    "known_for_department": "Production",
+    "name": "Allan B. Schwartz",
+    "original_name": "Allan B. Schwartz",
+    "popularity": 0.1199,
+    "profile_path": null,
+    "credit_id": "5d4986e22d1e406fa1bf8662",
+    "department": "Production",
+    "job": "Production Executive"
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 1650017,
+    "known_for_department": "Costume & Make-Up",
+    "name": "Joan White",
+    "original_name": "Joan White",
+    "popularity": 0.1968,
+    "profile_path": null,
+    "credit_id": "5d49850b417aaf00122946ff",
+    "department": "Costume & Make-Up",
+    "job": "Hairstylist"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 14930,
+    "known_for_department": "Sound",
+    "name": "John Addison",
+    "original_name": "John Addison",
+    "popularity": 0.5282,
+    "profile_path": "/ltAUptHmKFTmDlrI1R6IQ810fwJ.jpg",
+    "credit_id": "5d498689028f146f5d0085e6",
+    "department": "Sound",
+    "job": "Music Arranger"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 10407,
+    "known_for_department": "Costume & Make-Up",
+    "name": "Tom Smith",
+    "original_name": "Tom Smith",
+    "popularity": 0.2107,
+    "profile_path": null,
+    "credit_id": "5d4984e9028f143e5c002de4",
+    "department": "Costume & Make-Up",
+    "job": "Makeup Artist"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1855627,
+    "known_for_department": "Editing",
+    "name": "Mary Kessel",
+    "original_name": "Mary Kessel",
+    "popularity": 0.1199,
+    "profile_path": null,
+    "credit_id": "5d498673028f14001202411a",
+    "department": "Editing",
+    "job": "Assistant Editor"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 31937,
+    "known_for_department": "Production",
+    "name": "Frank Ernst",
+    "original_name": "Frank Ernst",
+    "popularity": 0.4669,
+    "profile_path": null,
+    "credit_id": "5d49853ba0be287b9aa14eac",
+    "department": "Production",
+    "job": "Production Manager"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2380284,
+    "known_for_department": "Crew",
+    "name": "Les Hillman",
+    "original_name": "Les Hillman",
+    "popularity": 0.2666,
+    "profile_path": null,
+    "credit_id": "5d498609417aaf0013294d66",
+    "department": "Crew",
+    "job": "Special Effects"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 31938,
+    "known_for_department": "Directing",
+    "name": "Kip Gowans",
+    "original_name": "Kip Gowans",
+    "popularity": 0.4838,
+    "profile_path": null,
+    "credit_id": "5d498558417aaf0bec2944f3",
+    "department": "Directing",
+    "job": "Assistant Director"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 12247,
+    "known_for_department": "Sound",
+    "name": "John W. Mitchell",
+    "original_name": "John W. Mitchell",
+    "popularity": 0.6692,
+    "profile_path": null,
+    "credit_id": "5d4985ba417aaf00152949f8",
+    "department": "Sound",
+    "job": "Sound Recordist"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1411160,
+    "known_for_department": "Directing",
+    "name": "Elaine Schreyeck",
+    "original_name": "Elaine Schreyeck",
+    "popularity": 0.3756,
+    "profile_path": null,
+    "credit_id": "5d4986c8028f144b8f0032b8",
+    "department": "Directing",
+    "job": "Continuity"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 14928,
+    "known_for_department": "Crew",
+    "name": "David Middlemas",
+    "original_name": "David Middlemas",
+    "popularity": 0.1712,
+    "profile_path": null,
+    "credit_id": "5d4984afa0be2872e4a1548c",
+    "department": "Production",
+    "job": "Associate Producer"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1548281,
+    "known_for_department": "Camera",
+    "name": "Jimmy Turrell",
+    "original_name": "Jimmy Turrell",
+    "popularity": 0.3765,
+    "profile_path": null,
+    "credit_id": "5d4986282d1e406fa1bf84fc",
+    "department": "Camera",
+    "job": "Camera Operator"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 2230776,
+    "known_for_department": "Crew",
+    "name": "Robin Demetriou",
+    "original_name": "Robin Demetriou",
+    "popularity": 0.2871,
+    "profile_path": null,
+    "credit_id": "5d4986f9a0be287cfda2d3b3",
+    "department": "Crew",
+    "job": "Chef"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 14934,
+    "known_for_department": "Sound",
+    "name": "Ken Barker",
+    "original_name": "Ken Barker",
+    "popularity": 0.3858,
+    "profile_path": null,
+    "credit_id": "5d49859c028f146f5d008430",
+    "department": "Sound",
+    "job": "Sound Recordist"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1427545,
+    "known_for_department": "Camera",
+    "name": "George Whitear",
+    "original_name": "George Whitear",
+    "popularity": 0.2526,
+    "profile_path": null,
+    "credit_id": "5d498659a0be2872e4a15868",
+    "department": "Camera",
+    "job": "Still Photographer"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 101962,
+    "known_for_department": "Sound",
+    "name": "Gary Hughes",
+    "original_name": "Gary Hughes",
+    "popularity": 0.2664,
+    "profile_path": null,
+    "credit_id": "5d4986ac028f143e5c00311e",
+    "department": "Sound",
+    "job": "Music Arranger"
+   }
+  ]
+ },
+ "keywords": {
+  "keywords": [
+   {
+    "id": 1326,
+    "name": "infidelity"
+   },
+   {
+    "id": 642,
+    "name": "robbery"
+   },
+   {
+    "id": 548,
+    "name": "countryside"
+   },
+   {
+    "id": 213,
+    "name": "upper class"
+   },
+   {
+    "id": 4516,
+    "name": "romantic rivalry"
+   },
+   {
+    "id": 10818,
+    "name": "author"
+   },
+   {
+    "id": 18249,
+    "name": "game"
+   },
+   {
+    "id": 34094,
+    "name": "extramarital affair"
+   },
+   {
+    "id": 316832,
+    "name": "tense"
+   },
+   {
+    "id": 325839,
+    "name": "ominous"
+   }
+  ]
+ }
+}

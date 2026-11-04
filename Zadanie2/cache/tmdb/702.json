@@ -1,0 +1,798 @@
+{
+ "adult": false,
+ "backdrop_path": "/or90vNrOVnYwi07fYYpQ3pbnjxP.jpg",
+ "belongs_to_collection": null,
+ "budget": 1800000,
+ "genres": [
+  {
+   "id": 18,
+   "name": "Drama"
+  },
+  {
+   "id": 53,
+   "name": "Thriller"
+  }
+ ],
+ "homepage": "",
+ "id": 702,
+ "imdb_id": "tt0044081",
+ "origin_country": [
+  "US"
+ ],
+ "original_language": "en",
+ "original_title": "A Streetcar Named Desire",
+ "overview": "A disturbed, aging Southern belle moves in with her sister for solace — but being face-to-face with her brutish brother-in-law accelerates her downward spiral.",
+ "popularity": 5.9876,
+ "poster_path": "/aicdlO5vt7z2ARm279eGzJeYCLQ.jpg",
+ "production_companies": [
+  {
+   "id": 1317,
+   "logo_path": null,
+   "name": "Charles K. Feldman Group",
+   "origin_country": "US"
+  },
+  {
+   "id": 174,
+   "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+   "name": "Warner Bros. Pictures",
+   "origin_country": "US"
+  }
+ ],
+ "production_countries": [
+  {
+   "iso_3166_1": "US",
+   "name": "United States of America"
+  }
+ ],
+ "release_date": "1951-09-18",
+ "revenue": 8000000,
+ "runtime": 122,
+ "softcore": false,
+ "spoken_languages": [
+  {
+   "english_name": "English",
+   "iso_639_1": "en",
+   "name": "English"
+  }
+ ],
+ "status": "Released",
+ "tagline": "...Blanche, who wanted so much to stay a lady...",
+ "title": "A Streetcar Named Desire",
+ "video": false,
+ "vote_average": 7.623,
+ "vote_count": 1543,
+ "credits": {
+  "cast": [
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 10538,
+    "known_for_department": "Acting",
+    "name": "Vivien Leigh",
+    "original_name": "Vivien Leigh",
+    "popularity": 2.4369,
+    "profile_path": "/h1hS5o0cKXF2g9Wjej0RtibMPT0.jpg",
+    "cast_id": 13,
+    "character": "Blanche DuBois",
+    "credit_id": "52fe426dc3a36847f801db07",
+    "order": 0
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 3084,
+    "known_for_department": "Acting",
+    "name": "Marlon Brando",
+    "original_name": "Marlon Brando",
+    "popularity": 3.3078,
+    "profile_path": "/yIvLpf9U9NfAvC7fuAgOQ8tu51T.jpg",
+    "cast_id": 14,
+    "character": "Stanley Kowalski",
+    "credit_id": "52fe426dc3a36847f801db0b",
+    "order": 1
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 10539,
+    "known_for_department": "Acting",
+    "name": "Kim Hunter",
+    "original_name": "Kim Hunter",
+    "popularity": 2.0,
+    "profile_path": "/knu87rUxQVZ65Plp6BgoyasAHOT.jpg",
+    "cast_id": 15,
+    "character": "Stella Kowalski",
+    "credit_id": "52fe426dc3a36847f801db0f",
+    "order": 2
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 9857,
+    "known_for_department": "Acting",
+    "name": "Karl Malden",
+    "original_name": "Karl Malden",
+    "popularity": 1.2861,
+    "profile_path": "/njDua2jZ1X1f5SYLzpxDt0hIhYu.jpg",
+    "cast_id": 16,
+    "character": "Harold Mitchell",
+    "credit_id": "52fe426dc3a36847f801db13",
+    "order": 3
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 3143,
+    "known_for_department": "Acting",
+    "name": "Rudy Bond",
+    "original_name": "Rudy Bond",
+    "popularity": 0.8382,
+    "profile_path": "/bd3YONpGsvQrpz6MkhsqsiPSaOD.jpg",
+    "cast_id": 17,
+    "character": "Steve",
+    "credit_id": "52fe426dc3a36847f801db17",
+    "order": 4
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2757,
+    "known_for_department": "Acting",
+    "name": "Nick Dennis",
+    "original_name": "Nick Dennis",
+    "popularity": 1.0757,
+    "profile_path": "/mcNrNUkrdqQWjPR5pXIZknDekR9.jpg",
+    "cast_id": 18,
+    "character": "Pablo Gonzales",
+    "credit_id": "52fe426dc3a36847f801db1b",
+    "order": 5
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 10540,
+    "known_for_department": "Acting",
+    "name": "Peg Hillias",
+    "original_name": "Peg Hillias",
+    "popularity": 0.3851,
+    "profile_path": "/zw36KGkIiS4ZgndBfGXZoCPVQeN.jpg",
+    "cast_id": 19,
+    "character": "Eunice",
+    "credit_id": "52fe426dc3a36847f801db1f",
+    "order": 6
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 10541,
+    "known_for_department": "Acting",
+    "name": "Wright King",
+    "original_name": "Wright King",
+    "popularity": 1.4462,
+    "profile_path": "/wGITHVDcMWtnAi6JsxZ7diyI5fk.jpg",
+    "cast_id": 20,
+    "character": "A Collector",
+    "credit_id": "52fe426dc3a36847f801db23",
+    "order": 7
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 10542,
+    "known_for_department": "Acting",
+    "name": "Richard Garrick",
+    "original_name": "Richard Garrick",
+    "popularity": 1.0258,
+    "profile_path": "/keB4byxTcLJpJQ3lqpbcSZC1ogY.jpg",
+    "cast_id": 21,
+    "character": "A Doctor",
+    "credit_id": "52fe426dc3a36847f801db27",
+    "order": 8
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 10543,
+    "known_for_department": "Acting",
+    "name": "Ann Dere",
+    "original_name": "Ann Dere",
+    "popularity": 0.5546,
+    "profile_path": null,
+    "cast_id": 22,
+    "character": "The Matron",
+    "credit_id": "52fe426dc3a36847f801db2b",
+    "order": 9
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 10544,
+    "known_for_department": "Acting",
+    "name": "Edna Thomas",
+    "original_name": "Edna Thomas",
+    "popularity": 0.1782,
+    "profile_path": null,
+    "cast_id": 23,
+    "character": "The Mexican Woman",
+    "credit_id": "52fe426dc3a36847f801db2f",
+    "order": 10
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 10545,
+    "known_for_department": "Acting",
+    "name": "Mickey Kuhn",
+    "original_name": "Mickey Kuhn",
+    "popularity": 1.1648,
+    "profile_path": "/p1K50ZdOssoPCwde2cnQ8aFb7Ph.jpg",
+    "cast_id": 24,
+    "character": "A Sailor",
+    "credit_id": "52fe426dc3a36847f801db33",
+    "order": 11
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 143454,
+    "known_for_department": "Acting",
+    "name": "Mel Archer",
+    "original_name": "Mel Archer",
+    "popularity": 0.2248,
+    "profile_path": null,
+    "cast_id": 25,
+    "character": "Foreman (uncredited)",
+    "credit_id": "563aaa9bc3a3681b590225c5",
+    "order": 12
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1550460,
+    "known_for_department": "Acting",
+    "name": "Walter Bacon",
+    "original_name": "Walter Bacon",
+    "popularity": 0.587,
+    "profile_path": null,
+    "cast_id": 43,
+    "character": "Club Patron (uncredited)",
+    "credit_id": "5dce9996e263bb0013757bf5",
+    "order": 13
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1044864,
+    "known_for_department": "Writing",
+    "name": "Dahn Ben Amotz",
+    "original_name": "Dahn Ben Amotz",
+    "popularity": 0.6999,
+    "profile_path": "/19wwwtT1DJDj50djfV3L0rTsLfB.jpg",
+    "cast_id": 42,
+    "character": "Minor Role (uncredited)",
+    "credit_id": "5947e1aec3a368170f042a36",
+    "order": 14
+   },
+   {
+    "adult": false,
+    "gender": 1,
+    "id": 2790,
+    "known_for_department": "Acting",
+    "name": "Marietta Canty",
+    "original_name": "Marietta Canty",
+    "popularity": 0.4215,
+    "profile_path": "/rfJaehAVzXraDrIu3oHLjy6QxOS.jpg",
+    "cast_id": 26,
+    "character": "Giggling Woman with Eunice (uncredited)",
+    "credit_id": "563aaae89251414ab702119b",
+    "order": 15
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 97999,
+    "known_for_department": "Acting",
+    "name": "John George",
+    "original_name": "John George",
+    "popularity": 0.6061,
+    "profile_path": "/67eRsXH4BISHgoKXpLODrgSn4PN.jpg",
+    "cast_id": 27,
+    "character": "Passerby (uncredited)",
+    "credit_id": "563aab1dc3a3681b52022b9f",
+    "order": 16
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 2458571,
+    "known_for_department": "Acting",
+    "name": "John Gonetos",
+    "original_name": "John Gonetos",
+    "popularity": 0.1561,
+    "profile_path": null,
+    "cast_id": 45,
+    "character": "Vendor (uncredited)",
+    "credit_id": "5dce99d5cc277c0017e53bfa",
+    "order": 17
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1831744,
+    "known_for_department": "Acting",
+    "name": "Chester Jones",
+    "original_name": "Chester Jones",
+    "popularity": 0.2125,
+    "profile_path": null,
+    "cast_id": 46,
+    "character": "Street Vendor (uncredited)",
+    "credit_id": "5dce99eb8a84d20012692d5a",
+    "order": 18
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 120521,
+    "known_for_department": "Acting",
+    "name": "Lyle Latell",
+    "original_name": "Lyle Latell",
+    "popularity": 0.3643,
+    "profile_path": "/be0nr3RaheYrHmE13LFemiPpDz0.jpg",
+    "cast_id": 28,
+    "character": "Policeman (uncredited)",
+    "credit_id": "563aab8292514129fe014fb9",
+    "order": 19
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1221260,
+    "known_for_department": "Acting",
+    "name": "Joe Brooks",
+    "original_name": "Joe Brooks",
+    "popularity": 0.4829,
+    "profile_path": "/uDc0NltKErK24BLeJvspw4EasOo.jpg",
+    "cast_id": 44,
+    "character": "Worker (uncredited)",
+    "credit_id": "5dce99ba8a84d20017693089",
+    "order": 20
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1815991,
+    "known_for_department": "Acting",
+    "name": "Mike Morelli",
+    "original_name": "Mike Morelli",
+    "popularity": 0.5414,
+    "profile_path": null,
+    "cast_id": 47,
+    "character": "Bowling Alley Patron (uncredited)",
+    "credit_id": "5dce9a03cc277c0017e53c68",
+    "order": 21
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1176510,
+    "known_for_department": "Acting",
+    "name": "William H. O'Brien",
+    "original_name": "William H. O'Brien",
+    "popularity": 1.4637,
+    "profile_path": "/tDqUL7sIoO8BpmCYDH51SNkSmMB.jpg",
+    "cast_id": 48,
+    "character": "Waiter (uncredited)",
+    "credit_id": "5dce9a0f79a1c30010498054",
+    "order": 22
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 2458572,
+    "known_for_department": "Acting",
+    "name": "Maxie Thrower",
+    "original_name": "Maxie Thrower",
+    "popularity": 0.2115,
+    "profile_path": null,
+    "cast_id": 49,
+    "character": "Passerby (uncredited)",
+    "credit_id": "5dce9a1acc277c0017e53ca9",
+    "order": 23
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 26158,
+    "known_for_department": "Acting",
+    "name": "Charles Wagenheim",
+    "original_name": "Charles Wagenheim",
+    "popularity": 0.6063,
+    "profile_path": "/pIu0yd4wZqYnTestkcZb2bke7bi.jpg",
+    "cast_id": 29,
+    "character": "Passerby (uncredited)",
+    "credit_id": "563aabd79251413b13004ab3",
+    "order": 24
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 2458573,
+    "known_for_department": "Acting",
+    "name": "John B. Williams",
+    "original_name": "John B. Williams",
+    "popularity": 0.1224,
+    "profile_path": null,
+    "cast_id": 50,
+    "character": "Vendor (uncredited)",
+    "credit_id": "5dce9a3a79a1c3001349a133",
+    "order": 25
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1467478,
+    "known_for_department": "Acting",
+    "name": "Buck Woods",
+    "original_name": "Buck Woods",
+    "popularity": 0.3811,
+    "profile_path": null,
+    "cast_id": 30,
+    "character": "Vendor (uncredited)",
+    "credit_id": "563aac089251413b13004ac1",
+    "order": 26
+   }
+  ],
+  "crew": [
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2746,
+    "known_for_department": "Directing",
+    "name": "Elia Kazan",
+    "original_name": "Elia Kazan",
+    "popularity": 1.0222,
+    "profile_path": "/j8jRoJHrA0QN6MchFpRYDy6ubJF.jpg",
+    "credit_id": "52fe426dc3a36847f801dac1",
+    "department": "Directing",
+    "job": "Director"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 3634,
+    "known_for_department": "Writing",
+    "name": "Tennessee Williams",
+    "original_name": "Tennessee Williams",
+    "popularity": 0.8084,
+    "profile_path": "/uSKXFsiDcFUIEJUyQ0CqoFwIJ2s.jpg",
+    "credit_id": "52fe426dc3a36847f801dac7",
+    "department": "Writing",
+    "job": "Theatre Play"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 3634,
+    "known_for_department": "Writing",
+    "name": "Tennessee Williams",
+    "original_name": "Tennessee Williams",
+    "popularity": 0.8084,
+    "profile_path": "/uSKXFsiDcFUIEJUyQ0CqoFwIJ2s.jpg",
+    "credit_id": "52fe426dc3a36847f801dacd",
+    "department": "Writing",
+    "job": "Screenplay"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 10533,
+    "known_for_department": "Writing",
+    "name": "Oscar Saul",
+    "original_name": "Oscar Saul",
+    "popularity": 0.4897,
+    "profile_path": null,
+    "credit_id": "52fe426dc3a36847f801dad3",
+    "department": "Writing",
+    "job": "Screenplay"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 10535,
+    "known_for_department": "Production",
+    "name": "Charles K. Feldman",
+    "original_name": "Charles K. Feldman",
+    "popularity": 0.345,
+    "profile_path": null,
+    "credit_id": "52fe426dc3a36847f801dad9",
+    "department": "Production",
+    "job": "Producer"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 10536,
+    "known_for_department": "Sound",
+    "name": "Alex North",
+    "original_name": "Alex North",
+    "popularity": 0.4179,
+    "profile_path": "/zk2hqLyIv84pGTZsFCqXlATbABD.jpg",
+    "credit_id": "52fe426dc3a36847f801dadf",
+    "department": "Sound",
+    "job": "Original Music Composer"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 10537,
+    "known_for_department": "Camera",
+    "name": "Harry Stradling Sr.",
+    "original_name": "Harry Stradling Sr.",
+    "popularity": 0.663,
+    "profile_path": null,
+    "credit_id": "52fe426dc3a36847f801dae5",
+    "department": "Camera",
+    "job": "Director of Photography"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 2766,
+    "known_for_department": "Production",
+    "name": "David Weisbart",
+    "original_name": "David Weisbart",
+    "popularity": 0.3646,
+    "profile_path": null,
+    "credit_id": "52fe426dc3a36847f801daeb",
+    "department": "Editing",
+    "job": "Editor"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 8506,
+    "known_for_department": "Art",
+    "name": "Richard Day",
+    "original_name": "Richard Day",
+    "popularity": 1.0332,
+    "profile_path": null,
+    "credit_id": "52fe426dc3a36847f801daf1",
+    "department": "Art",
+    "job": "Art Direction"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 4126,
+    "known_for_department": "Art",
+    "name": "George James Hopkins",
+    "original_name": "George James Hopkins",
+    "popularity": 0.459,
+    "profile_path": null,
+    "credit_id": "52fe426dc3a36847f801daf7",
+    "department": "Art",
+    "job": "Set Decoration"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 4313,
+    "known_for_department": "Costume & Make-Up",
+    "name": "Gordon Bau",
+    "original_name": "Gordon Bau",
+    "popularity": 0.4883,
+    "profile_path": null,
+    "credit_id": "52fe426dc3a36847f801dafd",
+    "department": "Costume & Make-Up",
+    "job": "Makeup Artist"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 8722,
+    "known_for_department": "Sound",
+    "name": "C.A. Riggs",
+    "original_name": "C.A. Riggs",
+    "popularity": 0.2651,
+    "profile_path": null,
+    "credit_id": "52fe426dc3a36847f801db03",
+    "department": "Sound",
+    "job": "Sound Designer"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1531939,
+    "known_for_department": "Costume & Make-Up",
+    "name": "Ray Forman",
+    "original_name": "Ray Forman",
+    "popularity": 0.1446,
+    "profile_path": null,
+    "credit_id": "563b9a07c3a3681b61026053",
+    "department": "Costume & Make-Up",
+    "job": "Hairstylist"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1514138,
+    "known_for_department": "Costume & Make-Up",
+    "name": "Otis Malcolm",
+    "original_name": "Otis Malcolm",
+    "popularity": 0.3277,
+    "profile_path": null,
+    "credit_id": "563b9a349251416d52016585",
+    "department": "Costume & Make-Up",
+    "job": "Makeup Artist"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 85426,
+    "known_for_department": "Acting",
+    "name": "Don Alvarado",
+    "original_name": "Don Alvarado",
+    "popularity": 0.3579,
+    "profile_path": "/8ALQlPCzVEYjAz3nBlWYGV9UzhR.jpg",
+    "credit_id": "563b9aab9251413b13006a6d",
+    "department": "Directing",
+    "job": "Assistant Director"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1531940,
+    "known_for_department": "Art",
+    "name": "Donald P. Desmond",
+    "original_name": "Donald P. Desmond",
+    "popularity": 0.2438,
+    "profile_path": null,
+    "credit_id": "563b9b2ec3a3681b5e023a96",
+    "department": "Art",
+    "job": "Construction Coordinator"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1531941,
+    "known_for_department": "Sound",
+    "name": "Francis E. Stahl",
+    "original_name": "Francis E. Stahl",
+    "popularity": 0.2317,
+    "profile_path": null,
+    "credit_id": "563b9b6a9251413b13006a84",
+    "department": "Sound",
+    "job": "Boom Operator"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1531026,
+    "known_for_department": "Sound",
+    "name": "Nathan Levinson",
+    "original_name": "Nathan Levinson",
+    "popularity": 0.1464,
+    "profile_path": null,
+    "credit_id": "563b9bd69251417819002050",
+    "department": "Sound",
+    "job": "Sound"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 1531943,
+    "known_for_department": "Sound",
+    "name": "Maurice De Packh",
+    "original_name": "Maurice De Packh",
+    "popularity": 0.3506,
+    "profile_path": null,
+    "credit_id": "563b9ce69251414c70004bf5",
+    "department": "Sound",
+    "job": "Orchestrator"
+   },
+   {
+    "adult": false,
+    "gender": 2,
+    "id": 30267,
+    "known_for_department": "Sound",
+    "name": "Ray Heindorf",
+    "original_name": "Ray Heindorf",
+    "popularity": 0.5362,
+    "profile_path": null,
+    "credit_id": "563b9d4dc3a3681b610260b0",
+    "department": "Sound",
+    "job": "Music Director"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1570441,
+    "known_for_department": "Directing",
+    "name": "John Prettyman",
+    "original_name": "John Prettyman",
+    "popularity": 0.2966,
+    "profile_path": null,
+    "credit_id": "56eaf09b9251414b1100025c",
+    "department": "Directing",
+    "job": "Assistant Director"
+   },
+   {
+    "adult": false,
+    "gender": 0,
+    "id": 1309577,
+    "known_for_department": "Art",
+    "name": "Bertram Tuttle",
+    "original_name": "Bertram Tuttle",
+    "popularity": 0.4739,
+    "profile_path": null,
+    "credit_id": "570a7e9ec3a3680fc2003e74",
+    "department": "Art",
+    "job": "Supervising Art Director"
+   }
+  ]
+ },
+ "keywords": {
+  "keywords": [
+   {
+    "id": 1565,
+    "name": "loss of sense of reality"
+   },
+   {
+    "id": 570,
+    "name": "rape"
+   },
+   {
+    "id": 380,
+    "name": "sibling relationship"
+   },
+   {
+    "id": 531,
+    "name": "southern usa"
+   },
+   {
+    "id": 2102,
+    "name": "brother-in-law"
+   },
+   {
+    "id": 2320,
+    "name": "violent husband"
+   },
+   {
+    "id": 2411,
+    "name": "new orleans, louisiana"
+   },
+   {
+    "id": 10235,
+    "name": "family relationships"
+   },
+   {
+    "id": 12999,
+    "name": "black and white"
+   },
+   {
+    "id": 157131,
+    "name": "light bulb"
+   },
+   {
+    "id": 160945,
+    "name": "expectant father"
+   },
+   {
+    "id": 210434,
+    "name": "thoughtful"
+   },
+   {
+    "id": 241738,
+    "name": "sister sister relationship"
+   },
+   {
+    "id": 325765,
+    "name": "amused"
+   },
+   {
+    "id": 325806,
+    "name": "empathetic"
+   }
+  ]
+ }
+}
