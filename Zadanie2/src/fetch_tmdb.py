@@ -58,25 +58,40 @@ def report(movies, tmdb):
     for mid, title, t, ot in mismatched:
         print(f"  {mid:>3}: {title!r} -> TMDB: {t!r} / {ot!r}")
 
+    # import w funkcji, bo features.py importuje ten moduł (import cykliczny)
+    from features import COMPOSER_JOBS, NOT_WRITERS
+
+    def crew_has(d, cond):
+        return any(cond(p) for p in d.get("credits", {}).get("crew", []))
+
+    # jeden check na każdą cechę z features.extract(), w tej samej kolejności;
+    # klucz = nazwa cechy, w nawiasie pole TMDB, gdy jest inne
     checks = {
-        "release_date": lambda d: not d.get("release_date"),
-        "runtime = 0": lambda d: not d.get("runtime"),
-        "budget = 0": lambda d: not d.get("budget"),
-        "revenue = 0": lambda d: not d.get("revenue"),
         "genres": lambda d: not d.get("genres"),
-        "overview": lambda d: not d.get("overview"),
         "keywords": lambda d: not d.get("keywords", {}).get("keywords"),
-        "cast": lambda d: not d.get("credits", {}).get("cast"),
-        "director": lambda d: not any(c.get("job") == "Director"
-                                      for c in d.get("credits", {}).get("crew", [])),
-        "production_countries": lambda d: not d.get("production_countries"),
-        "belongs_to_collection": lambda d: not d.get("belongs_to_collection"),
+        "directors": lambda d: not crew_has(d, lambda p: p.get("job") == "Director"),
+        "cast / cast_wide": lambda d: not d.get("credits", {}).get("cast"),
+        "year (release_date)": lambda d: not d.get("release_date"),
+        "runtime = 0": lambda d: not d.get("runtime"),
+        "vote_count = 0": lambda d: not d.get("vote_count"),
+        "vote_average = 0": lambda d: not d.get("vote_average"),
+        "budget = 0": lambda d: not d.get("budget"),
+        "language (original_language)": lambda d: not d.get("original_language"),
+        "countries (production_countries)": lambda d: not d.get("production_countries"),
+        "companies (production_companies)": lambda d: not d.get("production_companies"),
+        "writers": lambda d: not crew_has(d, lambda p: p.get("department") == "Writing"
+                                          and p.get("job") not in NOT_WRITERS),
+        "composers": lambda d: not crew_has(d, lambda p: p.get("job") in COMPOSER_JOBS),
+        "cinematographers": lambda d: not crew_has(
+            d, lambda p: p.get("job") == "Director of Photography"),
+        "overview": lambda d: not d.get("overview"),
     }
-    print("Braki danych (liczba filmów):")
+    width = max(map(len, checks))
+    print("Braki danych w cechach z features.py (liczba filmów):")
     for name, is_missing in checks.items():
         ids = [mid for mid, d in tmdb.items() if is_missing(d)]
         shown = ", ".join(map(str, ids[:15])) + (" …" if len(ids) > 15 else "")
-        print(f"  {name:<22} {len(ids):>3}" + (f"   movie_id: {shown}" if ids else ""))
+        print(f"  {name:<{width}} {len(ids):>3}" + (f"   movie_id: {shown}" if ids else ""))
 
 
 if __name__ == "__main__":
