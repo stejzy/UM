@@ -1,0 +1,8 @@
+predictor,seed,accuracy,accuracy_1,mae,uwagi
+baseline: najczęstsza ocena osoby,0,0.40937,0.71139,1.05462,
+baseline: średnia ocen osoby,0,0.32393,0.75270,0.97244,
+kNN z Zadania 1,,0.41766,0.71207,1.04413,"leave-one-out (uczenie na 89 filmach), porównanie orientacyjne"
+"drzewo: parametry z Etapu 2 (max_depth=5, min_samples_leaf=5, min_gain=0)",0,0.35071,0.67173,1.16691,
+"drzewo: najlepsze (max_depth=1, min_samples_leaf=32, min_gain=0.03)",0,0.40642,0.71307,1.04500,wybrane z 192 konfiguracji
+"drzewo: najlepsze, inny podział filmów",1,0.40760,0.71251,1.04870,"sprawdzenie, czy wynik nie był przypadkiem"
+"baseline: najczęstsza ocena osoby, inny podział",1,0.40968,0.71164,1.05413,

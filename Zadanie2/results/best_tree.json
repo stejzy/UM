@@ -1,0 +1,28 @@
+{
+  "params": {
+    "max_depth": 1,
+    "min_samples_split": 64,
+    "min_samples_leaf": 32,
+    "min_gain": 0.03
+  },
+  "validation": {
+    "seed": 0,
+    "n_folds": 5,
+    "accuracy": 0.4064245810055866,
+    "accuracy_1": 0.7130664183736809,
+    "mae": 1.0450031036623215,
+    "train_accuracy": 0.45306486654252026
+  },
+  "check": {
+    "seed": 1,
+    "accuracy": 0.40760397268777154,
+    "accuracy_1": 0.7125077591558039,
+    "mae": 1.0486964618249535
+  },
+  "baseline": {
+    "seed": 0,
+    "accuracy": 0.409373060211049,
+    "accuracy_1": 0.7113904407200498,
+    "mae": 1.054624456859094
+  }
+}
