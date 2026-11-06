@@ -1,0 +1,32 @@
+{
+  "params": {
+    "n_trees": 100,
+    "max_features": 30,
+    "max_depth": null,
+    "min_samples_split": 40,
+    "min_samples_leaf": 20,
+    "min_gain": 0.0
+  },
+  "validation": {
+    "seed": 0,
+    "n_folds": 5,
+    "accuracy": 0.41322160148975795,
+    "accuracy_1": 0.71731843575419,
+    "mae": 1.0357231533209188,
+    "train_accuracy": 0.4756517690875233,
+    "oob_accuracy": 0.41239137181874613
+  },
+  "check": {
+    "seed": 1,
+    "accuracy": 0.413314711359404,
+    "accuracy_1": 0.7152079453755431,
+    "mae": 1.0373370577281191,
+    "oob_accuracy": 0.41155338299193045
+  },
+  "baseline": {
+    "seed": 0,
+    "accuracy": 0.409373060211049,
+    "accuracy_1": 0.7113904407200498,
+    "mae": 1.054624456859094
+  }
+}

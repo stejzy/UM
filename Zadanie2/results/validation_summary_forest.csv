@@ -1,0 +1,8 @@
+predictor,seed,accuracy,accuracy_1,mae,oob_accuracy,uwagi
+baseline: najczęstsza ocena osoby,0,0.40937,0.71139,1.05462,,
+baseline: średnia ocen osoby,0,0.32393,0.75270,0.97244,,
+kNN z Zadania 1,,0.41766,0.71207,1.04413,,"leave-one-out (uczenie na 89 filmach), porównanie orientacyjne"
+"drzewo: najlepsze ({'max_depth': 1, 'min_samples_split': 64, 'min_samples_leaf': 32, 'min_gain': 0.03})",0,0.40642,0.71307,1.04500,,z results/best_tree.json
+"las: najlepszy (n_trees=100, max_features=30, min_samples_leaf=20)",0,0.41322,0.71732,1.03572,0.41239137181874613,wybrany z 60 konfiguracji
+"las: najlepszy, inny podział filmów",1,0.41331,0.71521,1.03734,0.41155338299193045,"sprawdzenie, czy wynik nie był przypadkiem"
+"baseline: najczęstsza ocena osoby, inny podział",1,0.40968,0.71164,1.05413,,

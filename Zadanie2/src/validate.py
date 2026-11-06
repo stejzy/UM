@@ -8,7 +8,11 @@ Sztuczka dla drzewa: ograniczenie max_depth tylko obcina drzewo (pozostałe kryt
 stopu nie zależą od głębokości), więc uczymy jedno drzewo bez limitu i odczytujemy
 przewidywania dla wielu głębokości naraz (predict_truncated).
 
-Ten plik nie ma pętli po parametrach; korzysta z niego tune_tree.py.
+Las losowy (Etap 3) nie pozwala na obcinanie (drzewa losują kolumny), ale las z k
+drzew to pierwsze k drzew większego lasu, więc jedno uczenie daje wyniki dla wielu
+rozmiarów lasu naraz (cross_val_forest).
+
+Ten plik nie ma pętli po parametrach; korzystają z niego tune_tree.py i tune_forest.py.
 """
 from concurrent.futures import as_completed
 
@@ -171,6 +175,29 @@ def _run_user(job):
     return user, cross_val(X, y, user, params, depths, n_folds, seed)
 
 
+def _run_all(run, jobs, executor=None, on_progress=None):
+    """{osoba: wynik} dla listy zadań (pierwszy element zadania = osoba), 1 lub wiele procesów.
+
+    executor    - ProcessPoolExecutor(initializer=init_worker) albo None (jeden proces)
+    on_progress - funkcja (ile_osób_gotowych, ile_wszystkich), wołana po każdej osobie
+    """
+    results = {}
+    if executor is None:
+        for done, job in enumerate(jobs, 1):
+            user, res = run(job)
+            results[user] = res
+            if on_progress:
+                on_progress(done, len(jobs))
+    else:
+        futures = [executor.submit(run, job) for job in jobs]
+        for done, future in enumerate(as_completed(futures), 1):
+            user, res = future.result()
+            results[user] = res
+            if on_progress:
+                on_progress(done, len(jobs))
+    return results
+
+
 def evaluate_tree(params, depths, n_folds=N_FOLDS, seed=0, executor=None, on_progress=None):
     """Walidacja drzewa dla wszystkich osób; zwraca listę wyników, jeden na głębokość.
 
@@ -179,20 +206,7 @@ def evaluate_tree(params, depths, n_folds=N_FOLDS, seed=0, executor=None, on_pro
     """
     users = get_users()
     jobs = [(user, dict(params), list(depths), n_folds, seed) for user in users]
-    results = {}
-    if executor is None:
-        for done, job in enumerate(jobs, 1):
-            user, res = _run_user(job)
-            results[user] = res
-            if on_progress:
-                on_progress(done, len(jobs))
-    else:
-        futures = [executor.submit(_run_user, job) for job in jobs]
-        for done, future in enumerate(as_completed(futures), 1):
-            user, res = future.result()
-            results[user] = res
-            if on_progress:
-                on_progress(done, len(jobs))
+    results = _run_all(_run_user, jobs, executor, on_progress)
 
     order = list(users)                      # stała kolejność osób, niezależna od procesów
     ys = [users[u][1] for u in order]
@@ -207,5 +221,77 @@ def evaluate_tree(params, depths, n_folds=N_FOLDS, seed=0, executor=None, on_pro
             "val_mae": s["mae"],
             "mean_depth": float(np.mean([results[u]["depth"][i] for u in order])),
             "mean_leaves": float(np.mean([results[u]["leaves"][i] for u in order])),
+        })
+    return rows
+
+
+# ---------------------------------------------------------------- walidacja lasu losowego
+
+def cross_val_forest(X, y, user, params, sizes, n_folds=N_FOLDS, seed=0):
+    """Walidacja krzyżowa lasu jednej osoby, od razu dla wielu rozmiarów lasu.
+
+    params: parametry RandomForest bez n_trees i seed. W każdej rundzie uczymy jeden
+    las z max(sizes) drzew (seed lasu = seed podziału); las z k drzew to jego
+    pierwsze k drzew (RandomForest.predict_sizes). Zwraca słownik z tablicami
+    o długości len(sizes) (poza val_pred):
+        val_pred  - (len(sizes), 90): przewidywanie każdego filmu przez las, który go nie widział
+        train_acc - średnia po rundach trafność na filmach, na których las się uczył
+        oob_acc   - średnia po rundach trafność OOB (na tych samych filmach co uczenie)
+        depth, leaves - średnia głębokość i liczba liści drzew lasu (liczby, nie tablice)
+    """
+    from forest import RandomForest, oob_accuracy
+
+    n, k = len(y), len(sizes)
+    val_pred = np.full((k, n), -1, dtype=int)
+    train_acc, oob_acc = np.zeros(k), np.zeros(k)
+    depth = leaves = 0.0
+
+    for test in make_folds(n, user, n_folds, seed):
+        mask = np.ones(n, dtype=bool)
+        mask[test] = False
+        forest = RandomForest(n_trees=max(sizes), seed=seed, **params).fit(X[mask], y[mask])
+        pred = forest.predict_sizes(X, sizes)       # wszystkie 90 filmów jednym przejściem
+        val_pred[:, test] = pred[:, test]
+        train_acc += (pred[:, mask] == y[mask]).mean(axis=1)
+        oob = forest.oob_predict_sizes(X[mask], sizes)
+        oob_acc += [oob_accuracy(o, y[mask]) for o in oob]
+        s = forest.summary()
+        depth += s["mean_depth"]
+        leaves += s["mean_leaves"]
+
+    assert (val_pred >= 0).all()
+    return {"val_pred": val_pred, "train_acc": train_acc / n_folds, "oob_acc": oob_acc / n_folds,
+            "depth": depth / n_folds, "leaves": leaves / n_folds}
+
+
+def _run_user_forest(job):
+    user, params, sizes, n_folds, seed = job
+    X, y = get_users()[user]
+    return user, cross_val_forest(X, y, user, params, sizes, n_folds, seed)
+
+
+def evaluate_forest(params, sizes, n_folds=N_FOLDS, seed=0, executor=None, on_progress=None):
+    """Walidacja lasu dla wszystkich osób; zwraca listę wyników, jeden na rozmiar lasu.
+
+    Argumenty executor i on_progress jak w evaluate_tree.
+    """
+    users = get_users()
+    jobs = [(user, dict(params), list(sizes), n_folds, seed) for user in users]
+    results = _run_all(_run_user_forest, jobs, executor, on_progress)
+
+    order = list(users)                      # stała kolejność osób, niezależna od procesów
+    ys = [users[u][1] for u in order]
+    rows = []
+    for i, size in enumerate(sizes):
+        s = scores([results[u]["val_pred"][i] for u in order], ys)
+        rows.append({
+            "n_trees": size,
+            "train_accuracy": float(np.mean([results[u]["train_acc"][i] for u in order])),
+            "val_accuracy": s["accuracy"],
+            "val_accuracy_1": s["accuracy_1"],
+            "val_mae": s["mae"],
+            "oob_accuracy": float(np.mean([results[u]["oob_acc"][i] for u in order])),
+            "mean_depth": float(np.mean([results[u]["depth"] for u in order])),
+            "mean_leaves": float(np.mean([results[u]["leaves"] for u in order])),
         })
     return rows
