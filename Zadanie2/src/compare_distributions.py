@@ -1,7 +1,9 @@
-"""Kontrola po Etapie 5: rozkład ocen w train.csv, w submission_tree.csv i w submission.csv z Zadania 1.
+"""Kontrola po Etapie 5: rozkład ocen w train.csv, w submission_tree.csv, submission_forest.csv
+i w submission.csv z Zadania 1.
 
-Sprawdza, czy przewidywania wyglądają rozsądnie: jakie oceny drzewo przewiduje,
-jak bardzo pokrywa się z kNN z Zadania 1 i z baseline'em "najczęstsza ocena osoby".
+Sprawdza, czy przewidywania wyglądają rozsądnie: jakie oceny przewidują drzewo i las,
+jak bardzo pokrywają się ze sobą, z kNN z Zadania 1 i z baseline'em "najczęstsza ocena osoby".
+Las i Zadanie 1 są pomijane, jeśli ich pliku nie ma.
 
 Użycie:
     uv run python src/compare_distributions.py
@@ -14,7 +16,7 @@ import numpy as np
 import pandas as pd
 
 from data import RATING_COLS, ROOT, load_all
-from predict import SUBMISSION_TREE
+from predict import SUBMISSION_FOREST, SUBMISSION_TREE
 from validate import most_frequent
 
 ZAD1_SUBMISSION = ROOT.parent / "Zadanie1" / "submission.csv"
@@ -53,8 +55,16 @@ def main():
     baseline = task.user.map(mode).to_numpy()
 
     sources = {"train.csv (prawdziwe oceny)": train.rating,
-               "submission_tree.csv (drzewo)": tree.rating,
-               "baseline: najczęstsza ocena osoby": baseline}
+               "submission_tree.csv (drzewo)": tree.rating}
+    forest = None
+    if SUBMISSION_FOREST.exists():
+        forest = load_submission(SUBMISSION_FOREST)
+        assert (forest.id.to_numpy() == task.id.to_numpy()).all(), "las: inne wiersze niż w task.csv"
+        sources["submission_forest.csv (las)"] = forest.rating
+    else:
+        print("Uwaga: brak submission_forest.csv, pomijam las "
+              "(uv run python src/predict.py --model forest)\n")
+    sources["baseline: najczęstsza ocena osoby"] = baseline
     zad1 = None
     if args.zad1.exists():
         zad1 = load_submission(args.zad1)
@@ -74,16 +84,24 @@ def main():
               + f"  {r['średnia']:7.2f}  {r['n']:>6}")
 
     print("\nZgodność przewidywań (ten sam wiersz task.csv, ta sama ocena):")
-    pairs = [("drzewo", tree.rating.to_numpy(), "baseline", baseline)]
+    t = tree.rating.to_numpy()
+    pairs = [("drzewo", t, "baseline", baseline)]
+    if forest is not None:
+        f = forest.rating.to_numpy()
+        pairs += [("las", f, "baseline", baseline), ("las", f, "drzewo", t)]
     if zad1 is not None:
-        pairs += [("drzewo", tree.rating.to_numpy(), "kNN z Zadania 1", zad1.rating.to_numpy()),
-                  ("kNN z Zadania 1", zad1.rating.to_numpy(), "baseline", baseline)]
+        k = zad1.rating.to_numpy()
+        pairs += [("drzewo", t, "kNN z Zadania 1", k)]
+        if forest is not None:
+            pairs += [("las", f, "kNN z Zadania 1", k)]
+        pairs += [("kNN z Zadania 1", k, "baseline", baseline)]
     for a, pa, b, pb in pairs:
         print(f"  {a:<16} vs {b:<16} {np.mean(pa == pb):6.1%}   "
               f"(różnica o więcej niż 1: {np.mean(np.abs(pa - pb) > 1):5.1%})")
 
     print("\nRóżnorodność przewidywań na osobę (30 filmów):")
-    subs = {"drzewo": tree} | ({"kNN z Zadania 1": zad1} if zad1 is not None else {})
+    subs = ({"drzewo": tree} | ({"las": forest} if forest is not None else {})
+            | ({"kNN z Zadania 1": zad1} if zad1 is not None else {}))
     for name, sub in subs.items():
         n = per_user(sub)
         print(f"  {name:<16} ta sama ocena dla wszystkich 30 filmów: {np.mean(n == 1):5.1%} osób, "
