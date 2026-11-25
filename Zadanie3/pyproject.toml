@@ -1,0 +1,10 @@
+[project]
+name = "zadanie3"
+version = "0.1.0"
+description = "Rekomendacje filmów na podstawie podobieństwa osób (user-based kNN)"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+]

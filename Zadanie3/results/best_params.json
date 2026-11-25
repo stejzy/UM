@@ -1,0 +1,25 @@
+{
+  "params": {
+    "measure": "pearson",
+    "lam": 50.0,
+    "min_common": 1,
+    "k": 5,
+    "aggregation": "vote",
+    "centered": false,
+    "a": 2.0,
+    "fallback": "mode"
+  },
+  "cv": {
+    "accuracy": 0.5254189944134078,
+    "accuracy_std": 0.004700178677817391,
+    "accuracy_1": 0.7756052141527002,
+    "mae": 0.8223463687150838,
+    "fallback_rate": 0.015083798882681566
+  },
+  "baselines": {
+    "mode": 0.4108007448789571,
+    "mean": 0.3244258224705152
+  },
+  "n_folds": 5,
+  "seed": 0
+}
